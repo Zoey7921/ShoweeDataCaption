@@ -89,6 +89,56 @@ Temporal Caption 数据用于训练和评估模型在描述手势动作时显式
 4. 对头戴视角下不可见的指尖接触、左右手细节，不要过度细化。
 5. 如果需要精确动作边界，应把 `boundary_source` 更新为 `human_review` 或 `frame_verified`，并把 `confidence` 更新为 `verified`。
 
+## 回写格式
+
+人工复核时优先只修改 `eval/human_review/temporal_caption_v001_review.md`。需要更新 JSON 时，在对应样本段落下添加 `review_update:` YAML 块：
+
+```yaml
+review_update:
+  status: frame_verified
+  review_notes: 人工逐帧复核通过。
+  temporal_segments:
+    - segment_id: seg_000
+      start_sec: 0.0
+      end_sec: 5.2
+      label: 起始张开
+      description: 手掌张开，五指基本伸展。
+      boundary_source: human_review
+      confidence: verified
+      notes: 人工看视频确认。
+    - segment_id: seg_001
+      start_sec: 5.2
+      end_sec: 12.4
+      label: 主要动作
+      description: 手指依次收回并再次伸展。
+      boundary_source: human_review
+      confidence: verified
+      notes: 人工看视频确认。
+```
+
+先试跑：
+
+```bash
+python scripts/apply_temporal_review.py --dry-run
+```
+
+确认 `applied_updates` 数量正确后正式回写：
+
+```bash
+python scripts/apply_temporal_review.py
+```
+
+脚本会同步更新：
+
+- `data/processed/temporal_caption_v001.json`
+- `data/processed/temporal_caption_v001_train.json`
+- `data/processed/temporal_caption_v001_val.json`
+- `data/processed/temporal_caption_v001_test.json`
+- `data/splits/temporal_caption_v001_train.json`
+- `data/splits/temporal_caption_v001_val.json`
+- `data/splits/temporal_caption_v001_test.json`
+- `data/processed/temporal_caption_v001_index.csv`
+
 ## 第一版建议
 
 `temporal_caption_v001` 建议先生成 100 条：

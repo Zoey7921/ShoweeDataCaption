@@ -29,6 +29,7 @@ annotation_pipeline/
     build_showee_choice_train_v002.py
     add_temporal_segments.py
     build_temporal_caption_dataset.py
+    apply_temporal_review.py
     summarize_showee_eval.py
   docs/
     ShoweeData_v001_标注说明.md
@@ -99,6 +100,13 @@ python scripts/build_temporal_caption_dataset.py \
   --config configs/temporal_caption_v001.yaml
 ```
 
+Apply manual temporal review updates back to JSON:
+
+```bash
+python scripts/apply_temporal_review.py --dry-run
+python scripts/apply_temporal_review.py
+```
+
 Summarize an eval prediction file:
 
 ```bash
@@ -137,6 +145,8 @@ Choice samples use the same `conversations` format for training and also provide
 Temporal annotations are stored in `metadata.temporal_segments` and the existing "动作从头到尾有什么变化" assistant answer is rewritten to mention timestamps. Current timestamps are coarse task-level boundaries derived from metadata duration, not frame-level human boundaries.
 
 The reusable temporal caption pipeline writes a new dataset such as `temporal_caption_v001.json` and can inherit prior annotations when configured, but it does not depend on v001/v002 naming or split logic.
+
+For manual review, add a `review_update:` YAML block under a sample in `eval/human_review/temporal_caption_v001_review.md`, then run `apply_temporal_review.py`. The script updates the full JSON, train/val/test split JSON files, and the index CSV.
 
 ## Git Hygiene
 
