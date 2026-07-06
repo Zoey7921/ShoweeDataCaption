@@ -9,7 +9,19 @@
       "task_name": "ASL Y",
       "split": "train",
       "annotation_source": "human_review_v002_initial_from_metadata",
-      "review_status": "edited"
+      "review_status": "edited",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "ASL Y",
+          "description": "整段视频围绕 ASL Y 手势任务展开，主要观察拇指和小指伸展以及手腕朝向变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
     },
     "conversations": [
       {
@@ -19,6 +31,14 @@
       {
         "from": "assistant",
         "value": "视频展示的是 ASL Y 手势任务。关键观察点是拇指和小指伸展，其余手指弯曲；如果头戴视角下指尖细节不清，应避免过度细化。"
+      },
+      {
+        "from": "user",
+        "value": "动作从头到尾有什么变化？如果看不清也说明。"
+      },
+      {
+        "from": "assistant",
+        "value": "0.00-20.00s：整段视频围绕 ASL Y 手势任务展开，主要观察拇指和小指伸展以及手腕朝向变化。以上时间点为粗粒度任务级标注，精确起止边界仍需逐帧复核。"
       }
     ]
   }
