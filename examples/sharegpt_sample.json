@@ -1,0 +1,25 @@
+[
+  {
+    "id": "showee_example_asl_y_head",
+    "video": "/path/to/ShoweeHandv2/raw/session/task/showee_head/video.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "task_id": "asl_y",
+      "task_name": "ASL Y",
+      "split": "train",
+      "annotation_source": "human_review_v002_initial_from_metadata",
+      "review_status": "edited"
+    },
+    "conversations": [
+      {
+        "from": "user",
+        "value": "<video>\n请描述视频中正在执行的手势任务。"
+      },
+      {
+        "from": "assistant",
+        "value": "视频展示的是 ASL Y 手势任务。关键观察点是拇指和小指伸展，其余手指弯曲；如果头戴视角下指尖细节不清，应避免过度细化。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "showee_example_asl_y_head_choice_mixed_family",
+    "video": "/path/to/ShoweeHandv2/raw/session/task/showee_head/video.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "task_id": "asl_y",
+      "task_name": "ASL Y",
+      "split": "train",
+      "training_objective": "candidate_task_choice",
+      "choice_variant": "mixed_family",
+      "candidate_tasks": [
+        {
+          "task_id": "asl_y",
+          "task_name": "ASL Y"
+        },
+        {
+          "task_id": "asl_l",
+          "task_name": "ASL L"
+        }
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "候选任务如下：\n1. ASL Y (asl_y)\n2. ASL L (asl_l)\n请判断视频属于哪一个，并只输出 JSON。JSON 格式固定为：{\"task_id\":\"...\",\"task_name\":\"...\"}。"
+      },
+      {
+        "role": "assistant",
+        "content": "{\"task_id\":\"asl_y\",\"task_name\":\"ASL Y\"}"
+      }
+    ]
+  }
+]

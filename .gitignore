@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data and generated artifacts
+data/
+eval/results/
+eval/human_review/
+runs/
+logs/
+tmp/
+ShoweeDataCaption/
+
+# Model weights and checkpoints
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# OS/editor
+.DS_Store
+*.swp

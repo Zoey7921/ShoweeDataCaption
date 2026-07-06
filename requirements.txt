@@ -1,0 +1,4 @@
+numpy
+decord
+torch
+transformers
