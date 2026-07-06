@@ -1,0 +1,45 @@
+version: temporal_caption_v001
+source_view: showee_head
+sample_count: 100
+seed: 42
+
+split:
+  train: 80
+  val: 10
+  test: 10
+
+existing_annotations:
+  - data/processed/showee_train_v002_temporal.json
+  - data/processed/showee_val_v002_temporal.json
+  - data/processed/showee_test_v002_temporal.json
+  - data/processed/showee_train_v002.json
+  - data/processed/showee_val_v002.json
+  - data/processed/showee_test_v002.json
+
+sampling:
+  inherit_existing_first: true
+  balance_by_task: true
+  priority_tasks:
+    - seq_flex
+    - seq_extend
+    - seq_pinch
+    - finger_wave
+    - fist_open
+    - abduct_adduct
+    - thumb_swipe
+    - thumb_touchpad
+    - wrist
+    - free_style
+
+temporal:
+  mode: phase_seed
+  max_segments: 3
+  default_duration_sec: 20.0
+  inherit_verified_segments_only: true
+  review_status: temporal_unreviewed
+
+outputs:
+  processed_dir: data/processed
+  splits_dir: data/splits
+  review_dir: eval/human_review
+  run_dir: runs/temporal_caption_v001

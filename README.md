@@ -12,7 +12,8 @@ It is intentionally separated from the working experiment directory so it can be
 4. Generate open-description eval sets and candidate-task choice eval sets.
 5. Add choice-style training samples for every v002 train video.
 6. Add coarse temporal action segments while preserving the multi-turn format.
-7. Summarize open/choice prediction files.
+7. Build a reusable temporal caption dataset independent of v001/v002 batch names.
+8. Summarize open/choice prediction files.
 
 This is not the full ShoweeHandv2 raw-to-processed data pipeline. It consumes the dataset's raw videos and metadata to create Qwen3-VL fine-tuning/evaluation JSON files.
 
@@ -27,10 +28,14 @@ annotation_pipeline/
     build_showee_dataset_v002.py
     build_showee_choice_train_v002.py
     add_temporal_segments.py
+    build_temporal_caption_dataset.py
     summarize_showee_eval.py
   docs/
     ShoweeData_v001_标注说明.md
     ShoweeData_v002_标注说明.md
+    TemporalCaption_标注规范.md
+  configs/
+    temporal_caption_v001.yaml
   examples/
     sharegpt_sample.json
     choice_messages_sample.json
@@ -87,6 +92,13 @@ python scripts/add_temporal_segments.py \
   data/processed/showee_test_v002.json
 ```
 
+Build the reusable temporal caption dataset:
+
+```bash
+python scripts/build_temporal_caption_dataset.py \
+  --config configs/temporal_caption_v001.yaml
+```
+
 Summarize an eval prediction file:
 
 ```bash
@@ -123,6 +135,8 @@ Training data uses a ShareGPT-like video conversation format:
 Choice samples use the same `conversations` format for training and also provide a `messages` variant for inspection or other trainers.
 
 Temporal annotations are stored in `metadata.temporal_segments` and the existing "动作从头到尾有什么变化" assistant answer is rewritten to mention timestamps. Current timestamps are coarse task-level boundaries derived from metadata duration, not frame-level human boundaries.
+
+The reusable temporal caption pipeline writes a new dataset such as `temporal_caption_v001.json` and can inherit prior annotations when configured, but it does not depend on v001/v002 naming or split logic.
 
 ## Git Hygiene
 

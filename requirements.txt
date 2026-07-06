@@ -2,3 +2,4 @@ numpy
 decord
 torch
 transformers
+PyYAML
