@@ -42,6 +42,26 @@ def read_yaml(path: Path) -> dict[str, Any]:
     return data
 
 
+def input_config(config: dict[str, Any]) -> tuple[Path, str]:
+    input_cfg = config.get("input", {})
+    if input_cfg is None:
+        input_cfg = {}
+    if not isinstance(input_cfg, dict):
+        raise TypeError("config.input must be a mapping when provided")
+
+    dataset = input_cfg.get("dataset", config.get("source_dataset"))
+    if not dataset:
+        raise KeyError("config must set input.dataset or source_dataset")
+
+    source_format = str(input_cfg.get("format", "temporal_segments"))
+    if source_format != "temporal_segments":
+        raise ValueError(
+            "only input.format='temporal_segments' is supported; "
+            f"got {source_format!r}"
+        )
+    return resolve_path(dataset), source_format
+
+
 def as_float(value: Any, default: float = 0.0) -> float:
     try:
         return float(value)
@@ -194,7 +214,7 @@ def main() -> None:
     config_path = args.config if args.config.is_absolute() else PROJECT_ROOT / args.config
     config = read_yaml(config_path)
     version = str(config.get("version", "streaming_interaction_v001"))
-    source_dataset = resolve_path(config["source_dataset"])
+    source_dataset, source_format = input_config(config)
     output = config.get("outputs", {})
     processed_dir = resolve_path(output.get("processed_dir", "data/processed"))
     review_dir = resolve_path(output.get("review_dir", "eval/human_review"))
@@ -216,6 +236,7 @@ def main() -> None:
         "version": version,
         "config": str(config_path),
         "source_dataset": str(source_dataset),
+        "input_format": source_format,
         "source_count": len(source_samples),
         "sample_count": len(stream_samples),
         "message_sample_count": len(message_samples),

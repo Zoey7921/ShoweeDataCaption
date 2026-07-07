@@ -13,7 +13,7 @@ It is intentionally separated from the working experiment directory so it can be
 5. Add choice-style training samples for every v002 train video.
 6. Add coarse temporal action segments while preserving the multi-turn format.
 7. Build a reusable temporal caption dataset independent of v001/v002 batch names.
-8. Build streaming interaction samples from temporal captions.
+8. Build streaming interaction samples from any dataset with temporal segments.
 9. Summarize open/choice prediction files.
 
 This is not the full ShoweeHandv2 raw-to-processed data pipeline. It consumes the dataset's raw videos and metadata to create Qwen3-VL fine-tuning/evaluation JSON files.
@@ -111,7 +111,7 @@ python scripts/apply_temporal_review.py --dry-run
 python scripts/apply_temporal_review.py
 ```
 
-Build streaming interaction samples from temporal captions:
+Build streaming interaction samples from a temporal-segment dataset:
 
 ```bash
 python scripts/build_streaming_interaction_dataset.py \
@@ -159,7 +159,7 @@ The reusable temporal caption pipeline writes a new dataset such as `temporal_ca
 
 For manual review, add a `review_update:` YAML block under a sample in `eval/human_review/temporal_caption_v001_review.md`, then run `apply_temporal_review.py`. The script updates the full JSON, train/val/test split JSON files, and the index CSV.
 
-The streaming interaction pipeline converts temporal segments into time-node guidance turns. It produces both canonical `turns` JSON and trainer-friendly `messages` JSON.
+The streaming interaction pipeline converts any input samples with `metadata.temporal_segments` into time-node guidance turns. `configs/streaming_interaction_v001.yaml` uses `temporal_caption_v001.json` as the current example input, but the script also accepts other compatible datasets through `input.dataset`. It produces both canonical `turns` JSON and trainer-friendly `messages` JSON.
 
 ## Git Hygiene
 

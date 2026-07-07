@@ -1,5 +1,10 @@
 version: streaming_interaction_v001
-source_dataset: data/processed/temporal_caption_v001.json
+
+# Any JSON list whose samples contain metadata.temporal_segments can be used here.
+# temporal_caption_v001 is only the current example source.
+input:
+  dataset: data/processed/temporal_caption_v001.json
+  format: temporal_segments
 
 turns:
   points: segment_midpoints
