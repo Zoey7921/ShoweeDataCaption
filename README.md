@@ -13,7 +13,8 @@ It is intentionally separated from the working experiment directory so it can be
 5. Add choice-style training samples for every v002 train video.
 6. Add coarse temporal action segments while preserving the multi-turn format.
 7. Build a reusable temporal caption dataset independent of v001/v002 batch names.
-8. Summarize open/choice prediction files.
+8. Build streaming interaction samples from temporal captions.
+9. Summarize open/choice prediction files.
 
 This is not the full ShoweeHandv2 raw-to-processed data pipeline. It consumes the dataset's raw videos and metadata to create Qwen3-VL fine-tuning/evaluation JSON files.
 
@@ -30,13 +31,16 @@ annotation_pipeline/
     add_temporal_segments.py
     build_temporal_caption_dataset.py
     apply_temporal_review.py
+    build_streaming_interaction_dataset.py
     summarize_showee_eval.py
   docs/
     ShoweeData_v001_标注说明.md
     ShoweeData_v002_标注说明.md
     TemporalCaption_标注规范.md
+    StreamingInteraction_标注规范.md
   configs/
     temporal_caption_v001.yaml
+    streaming_interaction_v001.yaml
   examples/
     sharegpt_sample.json
     choice_messages_sample.json
@@ -107,6 +111,13 @@ python scripts/apply_temporal_review.py --dry-run
 python scripts/apply_temporal_review.py
 ```
 
+Build streaming interaction samples from temporal captions:
+
+```bash
+python scripts/build_streaming_interaction_dataset.py \
+  --config configs/streaming_interaction_v001.yaml
+```
+
 Summarize an eval prediction file:
 
 ```bash
@@ -147,6 +158,8 @@ Temporal annotations are stored in `metadata.temporal_segments` and the existing
 The reusable temporal caption pipeline writes a new dataset such as `temporal_caption_v001.json` and can inherit prior annotations when configured, but it does not depend on v001/v002 naming or split logic.
 
 For manual review, add a `review_update:` YAML block under a sample in `eval/human_review/temporal_caption_v001_review.md`, then run `apply_temporal_review.py`. The script updates the full JSON, train/val/test split JSON files, and the index CSV.
+
+The streaming interaction pipeline converts temporal segments into time-node guidance turns. It produces both canonical `turns` JSON and trainer-friendly `messages` JSON.
 
 ## Git Hygiene
 

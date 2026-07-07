@@ -1,0 +1,15 @@
+version: streaming_interaction_v001
+source_dataset: data/processed/temporal_caption_v001.json
+
+turns:
+  points: segment_midpoints
+  max_turns_per_sample: 3
+  include_history: true
+  min_gap_sec: 1.0
+
+outputs:
+  processed_dir: data/processed
+  review_dir: eval/human_review
+  run_dir: runs/streaming_interaction_v001
+
+review_status: streaming_unreviewed
