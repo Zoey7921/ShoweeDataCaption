@@ -65,6 +65,19 @@ def as_float(value: Any, default: float = 0.0) -> float:
         return default
 
 
+def video_duration_sec(path: str) -> float:
+    try:
+        from decord import VideoReader, cpu
+
+        reader = VideoReader(path, ctx=cpu(0))
+        fps = float(reader.get_avg_fps())
+        if fps <= 0:
+            return 0.0
+        return round(len(reader) / fps, 3)
+    except Exception:
+        return 0.0
+
+
 def metadata_value(task: dict[str, Any], *keys: str, default: str = "") -> str:
     for key in keys:
         value = task.get(key)
@@ -279,8 +292,13 @@ def motion_hint(task_desc: str) -> str:
 
 def duration_sec(row: dict[str, Any], config: dict[str, Any]) -> float:
     default = as_float(config.get("temporal", {}).get("default_duration_sec"), 20.0)
-    value = as_float(row.get("duration"), 0.0)
-    return round(value if value > 0 else default, 3)
+    metadata_duration = as_float(row.get("duration"), 0.0)
+    value = metadata_duration if metadata_duration > 0 else default
+    if bool(config.get("temporal", {}).get("prefer_video_duration", True)):
+        actual_duration = video_duration_sec(str(row.get("video", "")))
+        if actual_duration > 0:
+            value = min(value, actual_duration) if value > 0 else actual_duration
+    return round(value, 3)
 
 
 def should_use_phases(task_desc: str, task_id: str) -> bool:

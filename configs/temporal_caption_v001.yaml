@@ -35,6 +35,7 @@ temporal:
   mode: phase_seed
   max_segments: 3
   default_duration_sec: 20.0
+  prefer_video_duration: true
   inherit_verified_segments_only: true
   review_status: temporal_unreviewed
 

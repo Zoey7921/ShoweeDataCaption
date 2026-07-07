@@ -6,7 +6,7 @@ Temporal Caption 数据用于训练和评估模型在描述手势动作时显式
 
 该 pipeline 不绑定 `v001` 或 `v002` 实验批次。历史标注文件只作为可选继承来源；没有历史标注的样本从 ShoweeHandv2 `raw` 的 `metadata.json` 生成初始标注。
 
-默认只继承历史样本中的人工确认时间段。如果历史样本的 `temporal_segments` 只是 `metadata_duration` 或 `uniform_phase_seed` 这类初始边界，pipeline 会重新按当前配置生成时间段；已有的任务描述和多轮对话仍可继承。
+默认只继承历史样本中的人工确认时间段。如果历史样本的 `temporal_segments` 只是 `metadata_duration` 或 `uniform_phase_seed` 这类初始边界，pipeline 会重新按当前配置生成时间段；已有的任务描述和多轮对话仍可继承。时间段终点优先使用真实视频时长和 metadata 计划时长中的较小值，避免标注超出视频尾帧。
 
 ## 样本格式
 
