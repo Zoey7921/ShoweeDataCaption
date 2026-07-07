@@ -33,6 +33,7 @@ annotation_pipeline/
     build_temporal_caption_dataset.py
     apply_temporal_review.py
     build_streaming_interaction_dataset.py
+    apply_streaming_review.py
     export_wearable_egoconv.py
     summarize_showee_eval.py
   docs/
@@ -121,6 +122,13 @@ python scripts/build_streaming_interaction_dataset.py \
   --config configs/streaming_interaction_v001.yaml
 ```
 
+Apply manual streaming review updates and refresh EgoConv export:
+
+```bash
+python scripts/apply_streaming_review.py --dry-run
+python scripts/apply_streaming_review.py
+```
+
 Export streaming interaction samples to Wearable AI EgoConv JSONL:
 
 ```bash
@@ -170,6 +178,8 @@ The reusable temporal caption pipeline writes a new dataset such as `temporal_ca
 For manual review, add a `review_update:` YAML block under a sample in `eval/human_review/temporal_caption_v001_review.md`, then run `apply_temporal_review.py`. The script updates the full JSON, train/val/test split JSON files, and the index CSV.
 
 The streaming interaction pipeline converts any input samples with `metadata.temporal_segments` into time-node guidance turns. `configs/streaming_interaction_v001.yaml` uses `temporal_caption_v001.json` as the current example input, but the script also accepts other compatible datasets through `input.dataset`. It produces both canonical `turns` JSON and trainer-friendly `messages` JSON.
+
+For manual streaming review, add a `review_update:` YAML block under a sample in `eval/human_review/streaming_interaction_v001_review.md`, then run `apply_streaming_review.py`. The script updates the canonical streaming JSON, rebuilds the messages JSON, and refreshes the Wearable AI EgoConv JSONL export.
 
 The Wearable AI EgoConv exporter writes JSONL rows with `video_path`, `duration_in_sec`, `video_intervals`, `questions`, `answers`, `task`, and `dialog`. In the default config, `video_path` is relative to `data/raw/ShoweeHandv2/raw`, so EgoConv-style runners should use that directory as `--video-folder`.
 

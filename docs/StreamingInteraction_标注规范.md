@@ -85,6 +85,30 @@ AI：结合上一轮和当前画面，继续...
 4. 如果源 temporal segment 不是 `verified`，不要把回答写成精确边界事实。
 5. 流式问答要像真实助手，不要只复述标签。
 
+## 复核更新格式
+
+在 `eval/human_review/streaming_interaction_v001_review.md` 的对应样本下添加：
+
+```yaml
+review_update:
+  status: streaming_edited
+  review_notes: "修正第二轮问题和回答。"
+  turns:
+    - turn_id: turn_001
+      time_sec: 9.8
+      user: "我已经完成张开手指了，下一步该怎么做？"
+      assistant: "结合前面的对话和当前画面，现在应把五指重新并拢，保持手腕稳定，然后再重复张开。"
+```
+
+然后运行：
+
+```bash
+python scripts/apply_streaming_review.py --dry-run
+python scripts/apply_streaming_review.py
+```
+
+脚本会更新 streaming canonical JSON，重建 messages JSON，并同步刷新 Wearable AI EgoConv JSONL。
+
 ## 限制
 
 当前第一版是从 temporal segment seed 自动生成的，适合训练“时间节点 + 历史对话”的格式，不等于真实应用场景中的售票机、导航或复杂环境问答。迁移到真实场景时，可以复用该输入/输出格式，但需要新的场景数据、时间节点和人工标注。
