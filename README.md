@@ -14,7 +14,8 @@ It is intentionally separated from the working experiment directory so it can be
 6. Add coarse temporal action segments while preserving the multi-turn format.
 7. Build a reusable temporal caption dataset independent of v001/v002 batch names.
 8. Build streaming interaction samples from any dataset with temporal segments.
-9. Summarize open/choice prediction files.
+9. Export streaming interaction annotations to Wearable AI EgoConv JSONL.
+10. Summarize open/choice prediction files.
 
 This is not the full ShoweeHandv2 raw-to-processed data pipeline. It consumes the dataset's raw videos and metadata to create Qwen3-VL fine-tuning/evaluation JSON files.
 
@@ -32,6 +33,7 @@ annotation_pipeline/
     build_temporal_caption_dataset.py
     apply_temporal_review.py
     build_streaming_interaction_dataset.py
+    export_wearable_egoconv.py
     summarize_showee_eval.py
   docs/
     ShoweeData_v001_标注说明.md
@@ -41,6 +43,7 @@ annotation_pipeline/
   configs/
     temporal_caption_v001.yaml
     streaming_interaction_v001.yaml
+    wearable_egoconv_v001.yaml
   examples/
     sharegpt_sample.json
     choice_messages_sample.json
@@ -118,6 +121,13 @@ python scripts/build_streaming_interaction_dataset.py \
   --config configs/streaming_interaction_v001.yaml
 ```
 
+Export streaming interaction samples to Wearable AI EgoConv JSONL:
+
+```bash
+python scripts/export_wearable_egoconv.py \
+  --config configs/wearable_egoconv_v001.yaml
+```
+
 Summarize an eval prediction file:
 
 ```bash
@@ -160,6 +170,8 @@ The reusable temporal caption pipeline writes a new dataset such as `temporal_ca
 For manual review, add a `review_update:` YAML block under a sample in `eval/human_review/temporal_caption_v001_review.md`, then run `apply_temporal_review.py`. The script updates the full JSON, train/val/test split JSON files, and the index CSV.
 
 The streaming interaction pipeline converts any input samples with `metadata.temporal_segments` into time-node guidance turns. `configs/streaming_interaction_v001.yaml` uses `temporal_caption_v001.json` as the current example input, but the script also accepts other compatible datasets through `input.dataset`. It produces both canonical `turns` JSON and trainer-friendly `messages` JSON.
+
+The Wearable AI EgoConv exporter writes JSONL rows with `video_path`, `duration_in_sec`, `video_intervals`, `questions`, `answers`, `task`, and `dialog`. In the default config, `video_path` is relative to `data/raw/ShoweeHandv2/raw`, so EgoConv-style runners should use that directory as `--video-folder`.
 
 ## Git Hygiene
 

@@ -1,0 +1,20 @@
+version: wearable_egoconv_v001
+
+input:
+  dataset: data/processed/streaming_interaction_v001.json
+  format: streaming_turns
+
+video:
+  # For EgoConv-style runners, pass this directory as --video-folder.
+  root: data/raw/ShoweeHandv2/raw
+  path_mode: relative_to_root
+
+output:
+  jsonl: data/processed/wearable_egoconv_v001.jsonl
+  report: runs/wearable_egoconv_v001/export_report.json
+
+defaults:
+  task_field: task_name
+  user_role: P1
+  assistant_role: Assistant
+  question_type: Multimodal_relevant
