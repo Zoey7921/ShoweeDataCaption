@@ -1,0 +1,532 @@
+[
+  {
+    "id": "showee_0007_midair_1_abduct_adduct_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/abduct_adduct/showee_head/20260521_152207314980_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-5.00s：进入五指张合任务的起始姿态，开始出现手指伸展或张开、手指分合。 5.00-15.00s：主要执行张开和并拢五指，重点观察手指伸展或张开、手指分合。 15.00-20.00s：动作继续或回到稳定姿态，仍围绕五指张合任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/abduct_adduct/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "abduct_adduct",
+      "task_name": "五指张合",
+      "task_desc": "张开和并拢五指",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 5.0,
+          "label": "五指张合-起始姿态",
+          "description": "进入五指张合任务的起始姿态，开始出现手指伸展或张开、手指分合。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 5.0,
+          "end_sec": 15.0,
+          "label": "五指张合-主要动作",
+          "description": "主要执行张开和并拢五指，重点观察手指伸展或张开、手指分合。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 15.0,
+          "end_sec": 20.0,
+          "label": "五指张合-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕五指张合任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_2_finger_wave_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/finger_wave/showee_head/20260521_155047902174_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入手指波浪任务的起始姿态，开始出现手指弯曲程度变化、手指伸展或张开、按序连续变化。 7.50-22.50s：主要执行按照顺序，弯曲和伸展全部手指，重点观察手指弯曲程度变化、手指伸展或张开、按序连续变化。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕手指波浪任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/finger_wave/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "2",
+      "task_id": "finger_wave",
+      "task_name": "手指波浪",
+      "task_desc": "按照顺序，弯曲和伸展全部手指",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "手指波浪-起始姿态",
+          "description": "进入手指波浪任务的起始姿态，开始出现手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "手指波浪-主要动作",
+          "description": "主要执行按照顺序，弯曲和伸展全部手指，重点观察手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "手指波浪-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕手指波浪任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_fist_open_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/fist_open/showee_head/20260521_152236849335_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-5.00s：进入握拳开掌任务的起始姿态，开始出现手指伸展或张开。 5.00-15.00s：主要执行握拳和开掌，重点观察手指伸展或张开。 15.00-20.00s：动作继续或回到稳定姿态，仍围绕握拳开掌任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/fist_open/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "fist_open",
+      "task_name": "握拳开掌",
+      "task_desc": "握拳和开掌",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 5.0,
+          "label": "握拳开掌-起始姿态",
+          "description": "进入握拳开掌任务的起始姿态，开始出现手指伸展或张开。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 5.0,
+          "end_sec": 15.0,
+          "label": "握拳开掌-主要动作",
+          "description": "主要执行握拳和开掌，重点观察手指伸展或张开。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 15.0,
+          "end_sec": 20.0,
+          "label": "握拳开掌-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕握拳开掌任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_free_style_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/free_style/showee_head/20260521_152514812659_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-15.00s：进入自由发挥任务的起始姿态，开始出现手部姿态保持与轻微变化。 15.00-45.00s：主要执行尽可能涵盖各种手势，不断变换手势，重点观察手部姿态保持与轻微变化。 45.00-60.00s：动作继续或回到稳定姿态，仍围绕自由发挥任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/free_style/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "free_style",
+      "task_name": "自由发挥",
+      "task_desc": "尽可能涵盖各种手势，不断变换手势",
+      "duration": 60,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 15.0,
+          "label": "自由发挥-起始姿态",
+          "description": "进入自由发挥任务的起始姿态，开始出现手部姿态保持与轻微变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 15.0,
+          "end_sec": 45.0,
+          "label": "自由发挥-主要动作",
+          "description": "主要执行尽可能涵盖各种手势，不断变换手势，重点观察手部姿态保持与轻微变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 45.0,
+          "end_sec": 60.0,
+          "label": "自由发挥-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕自由发挥任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_seq_extend_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_extend/showee_head/20260521_151915920485_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入序列伸展任务的起始姿态，开始出现手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。 7.50-22.50s：主要执行从握拳姿态开始，依次伸出并收回手指，转动手腕，重点观察手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕序列伸展任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_extend/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "seq_extend",
+      "task_name": "序列伸展",
+      "task_desc": "从握拳姿态开始，依次伸出并收回手指，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "序列伸展-起始姿态",
+          "description": "进入序列伸展任务的起始姿态，开始出现手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "序列伸展-主要动作",
+          "description": "主要执行从握拳姿态开始，依次伸出并收回手指，转动手腕，重点观察手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "序列伸展-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕序列伸展任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_2_seq_flex_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/seq_flex/showee_head/20260521_155011140215_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入序列收回任务的起始姿态，开始出现手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。 7.50-22.50s：主要执行从张开姿态开始，依次收回并伸出手指，转动手腕，重点观察手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕序列收回任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/seq_flex/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "2",
+      "task_id": "seq_flex",
+      "task_name": "序列收回",
+      "task_desc": "从张开姿态开始，依次收回并伸出手指，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "序列收回-起始姿态",
+          "description": "进入序列收回任务的起始姿态，开始出现手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "序列收回-主要动作",
+          "description": "主要执行从张开姿态开始，依次收回并伸出手指，转动手腕，重点观察手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "序列收回-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕序列收回任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_seq_pinch_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_pinch/showee_head/20260521_152127753282_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入序列捏合任务的起始姿态，开始出现手腕转动或朝向变化、指尖接触或滑动。 7.50-22.50s：主要执行拇指和其他手指反复捏合，转动手腕，重点观察手腕转动或朝向变化、指尖接触或滑动。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕序列捏合任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_pinch/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "seq_pinch",
+      "task_name": "序列捏合",
+      "task_desc": "拇指和其他手指反复捏合，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "序列捏合-起始姿态",
+          "description": "进入序列捏合任务的起始姿态，开始出现手腕转动或朝向变化、指尖接触或滑动。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "序列捏合-主要动作",
+          "description": "主要执行拇指和其他手指反复捏合，转动手腕，重点观察手腕转动或朝向变化、指尖接触或滑动。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "序列捏合-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕序列捏合任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_thumb_swipe_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/thumb_swipe/showee_head/20260521_152345761623_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入拇指侧滑任务的起始姿态，开始出现指尖接触或滑动、按序连续变化。 7.50-22.50s：主要执行大拇指依次在四指侧面滑动，重点观察指尖接触或滑动、按序连续变化。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕拇指侧滑任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/thumb_swipe/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "thumb_swipe",
+      "task_name": "拇指侧滑",
+      "task_desc": "大拇指依次在四指侧面滑动",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "拇指侧滑-起始姿态",
+          "description": "进入拇指侧滑任务的起始姿态，开始出现指尖接触或滑动、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "拇指侧滑-主要动作",
+          "description": "主要执行大拇指依次在四指侧面滑动，重点观察指尖接触或滑动、按序连续变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "拇指侧滑-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕拇指侧滑任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_thumb_touchpad_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/thumb_touchpad/showee_head/20260521_152305923763_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-7.50s：进入拇指触控板任务的起始姿态，开始出现手腕转动或朝向变化、指尖接触或滑动。 7.50-22.50s：主要执行大拇指触摸四指内侧并滑动，转动手腕，重点观察手腕转动或朝向变化、指尖接触或滑动。 22.50-30.00s：动作继续或回到稳定姿态，仍围绕拇指触控板任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/thumb_touchpad/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "thumb_touchpad",
+      "task_name": "拇指触控板",
+      "task_desc": "大拇指触摸四指内侧并滑动，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 7.5,
+          "label": "拇指触控板-起始姿态",
+          "description": "进入拇指触控板任务的起始姿态，开始出现手腕转动或朝向变化、指尖接触或滑动。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 7.5,
+          "end_sec": 22.5,
+          "label": "拇指触控板-主要动作",
+          "description": "主要执行大拇指触摸四指内侧并滑动，转动手腕，重点观察手腕转动或朝向变化、指尖接触或滑动。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 22.5,
+          "end_sec": 30.0,
+          "label": "拇指触控板-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕拇指触控板任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0007_midair_1_wrist_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/wrist/showee_head/20260521_152426355382_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-10.00s：进入手腕转动任务的起始姿态，开始出现手腕转动或朝向变化。 10.00-30.00s：主要执行尽可能转动手腕，同时做任意手势，重点观察手腕转动或朝向变化。 30.00-40.00s：动作继续或回到稳定姿态，仍围绕手腕转动任务。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/wrist/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "wrist",
+      "task_name": "手腕转动",
+      "task_desc": "尽可能转动手腕，同时做任意手势",
+      "duration": 40,
+      "split": "test",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 10.0,
+          "label": "手腕转动-起始姿态",
+          "description": "进入手腕转动任务的起始姿态，开始出现手腕转动或朝向变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_001",
+          "start_sec": 10.0,
+          "end_sec": 30.0,
+          "label": "手腕转动-主要动作",
+          "description": "主要执行尽可能转动手腕，同时做任意手势，重点观察手腕转动或朝向变化。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        },
+        {
+          "segment_id": "seg_002",
+          "start_sec": 30.0,
+          "end_sec": 40.0,
+          "label": "手腕转动-结束或重复",
+          "description": "动作继续或回到稳定姿态，仍围绕手腕转动任务。",
+          "boundary_source": "uniform_phase_seed",
+          "confidence": "medium",
+          "notes": "阶段边界为规则生成，需要人工复核。"
+        }
+      ]
+    }
+  }
+]

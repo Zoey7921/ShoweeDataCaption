@@ -1,0 +1,798 @@
+[
+  {
+    "id": "wearable_egoconv_v001_line0101_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_0/showee_head/20260521_144049635561_000.mkv",
+    "question": "我现在在做 ASL 0，应该怎么保持？",
+    "reference_answer": "保持双手在画面中，让手指围成清楚的 0 形或圆形轮廓。手腕不要大幅晃动，停住一小段时间，方便看清手形。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 0，应该怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 101,
+      "relative_video_path": "20260521_0007_midair_1/asl_0/showee_head/20260521_144049635561_000.mkv",
+      "task": "ASL 0",
+      "duration_in_sec": 18.733,
+      "video_intervals": [
+        [
+          0.0,
+          18.733
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.733
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0102_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_1/showee_head/20260521_144317806852_000.mkv",
+    "question": "我现在在做 ASL 1，接下来要注意什么？",
+    "reference_answer": "保持食指清楚伸出，其他手指收拢。把手放在画面中央，手腕稳定，避免伸出的手指被另一只手或手腕遮住。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 1，接下来要注意什么？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 102,
+      "relative_video_path": "20260521_0007_midair_1/asl_1/showee_head/20260521_144317806852_000.mkv",
+      "task": "ASL 1",
+      "duration_in_sec": 18.85,
+      "video_intervals": [
+        [
+          0.0,
+          18.85
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.85
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0103_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_2/showee_head/20260521_144659734120_000.mkv",
+    "question": "我现在在做 ASL 2，这样应该怎么调整？",
+    "reference_answer": "让两根手指清楚伸出，其他手指保持收拢。手掌朝向要稳定，停住一小段时间，让两根伸出的手指分得清楚。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 2，这样应该怎么调整？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 103,
+      "relative_video_path": "20260521_0007_midair_1/asl_2/showee_head/20260521_144659734120_000.mkv",
+      "task": "ASL 2",
+      "duration_in_sec": 18.833,
+      "video_intervals": [
+        [
+          0.0,
+          18.833
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.833
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0104_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_3/showee_head/20260521_150821212885_000.mkv",
+    "question": "我现在在做 ASL 3，下一步怎么保持？",
+    "reference_answer": "把目标手形稳定住，让伸出的手指彼此分开，收拢的手指不要突然打开。保持双手在画面中，短暂停住方便识别。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 3，下一步怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 104,
+      "relative_video_path": "20260521_0007_midair_1/asl_3/showee_head/20260521_150821212885_000.mkv",
+      "task": "ASL 3",
+      "duration_in_sec": 18.767,
+      "video_intervals": [
+        [
+          0.0,
+          18.767
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.767
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0105_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_4/showee_head/20260521_151323815909_000.mkv",
+    "question": "我现在在做 ASL 4，要怎么做得更清楚？",
+    "reference_answer": "让四根手指尽量伸直并分开，拇指收在合适位置。手掌保持朝向镜头，不要让手指重叠在一起。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 4，要怎么做得更清楚？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 105,
+      "relative_video_path": "20260521_0007_midair_1/asl_4/showee_head/20260521_151323815909_000.mkv",
+      "task": "ASL 4",
+      "duration_in_sec": 15.1,
+      "video_intervals": [
+        [
+          0.0,
+          15.1
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        15.1
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0106_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_5/showee_head/20260521_151602295249_000.mkv",
+    "question": "我现在在做 ASL 5，应该检查哪里？",
+    "reference_answer": "把五指全部张开，手掌朝向保持稳定。确认每根手指都能看清，尤其不要让拇指或小指被遮住。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 5，应该检查哪里？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 106,
+      "relative_video_path": "20260521_0007_midair_1/asl_5/showee_head/20260521_151602295249_000.mkv",
+      "task": "ASL 5",
+      "duration_in_sec": 18.683,
+      "video_intervals": [
+        [
+          0.0,
+          18.683
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.683
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0107_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_6/showee_head/20260521_150854907093_000.mkv",
+    "question": "我现在在做 ASL 6，接下来怎么确认？",
+    "reference_answer": "保持 ASL 6 的目标手形，注意让拇指和对应手指的接触点清楚可见。其他手指尽量展开，手不要偏出画面。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 6，接下来怎么确认？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 107,
+      "relative_video_path": "20260521_0007_midair_1/asl_6/showee_head/20260521_150854907093_000.mkv",
+      "task": "ASL 6",
+      "duration_in_sec": 18.75,
+      "video_intervals": [
+        [
+          0.0,
+          18.75
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.75
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0108_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_7/showee_head/20260521_150931625013_000.mkv",
+    "question": "我现在在做 ASL 7，这个手形要怎么保持？",
+    "reference_answer": "保持 ASL 7 的目标手形，重点让拇指和对应手指的接触位置可见。手腕保持稳定，伸出的手指不要互相贴在一起。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 7，这个手形要怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 108,
+      "relative_video_path": "20260521_0007_midair_1/asl_7/showee_head/20260521_150931625013_000.mkv",
+      "task": "ASL 7",
+      "duration_in_sec": 18.817,
+      "video_intervals": [
+        [
+          0.0,
+          18.817
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.817
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0109_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_8/showee_head/20260521_151009230829_000.mkv",
+    "question": "我现在在做 ASL 8，要注意什么？",
+    "reference_answer": "把 ASL 8 的手形稳定住，让拇指和对应手指的接触点不要被遮挡。保持手掌角度一致，停住一小段时间。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 8，要注意什么？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 109,
+      "relative_video_path": "20260521_0007_midair_1/asl_8/showee_head/20260521_151009230829_000.mkv",
+      "task": "ASL 8",
+      "duration_in_sec": 18.833,
+      "video_intervals": [
+        [
+          0.0,
+          18.833
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.833
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0110_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_9/showee_head/20260521_151050396647_000.mkv",
+    "question": "我现在在做 ASL 9，这样可以吗？",
+    "reference_answer": "保持 ASL 9 的手形，注意拇指和目标手指形成清楚接触或圆形轮廓。其他手指不要挡住关键接触点。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL 9，这样可以吗？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 110,
+      "relative_video_path": "20260521_0007_midair_1/asl_9/showee_head/20260521_151050396647_000.mkv",
+      "task": "ASL 9",
+      "duration_in_sec": 18.733,
+      "video_intervals": [
+        [
+          0.0,
+          18.733
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.733
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0111_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_a/showee_head/20260521_144132956988_000.mkv",
+    "question": "我现在在做 ASL A，应该怎么摆？",
+    "reference_answer": "保持拳形稳定，让拇指位置清楚可见。手腕不要旋转太多，停在画面中央，避免拳头边缘被遮住。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL A，应该怎么摆？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 111,
+      "relative_video_path": "20260521_0007_midair_1/asl_a/showee_head/20260521_144132956988_000.mkv",
+      "task": "ASL A",
+      "duration_in_sec": 18.833,
+      "video_intervals": [
+        [
+          0.0,
+          18.833
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.833
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0112_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_c/showee_head/20260521_151640712895_000.mkv",
+    "question": "我现在在做 ASL C，接下来要调整吗？",
+    "reference_answer": "让手指和拇指保持弯曲，形成清楚的 C 形空间。手掌稍微朝向镜头，确保弧形轮廓能被看见。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL C，接下来要调整吗？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 112,
+      "relative_video_path": "20260521_0007_midair_1/asl_c/showee_head/20260521_151640712895_000.mkv",
+      "task": "ASL C",
+      "duration_in_sec": 18.817,
+      "video_intervals": [
+        [
+          0.0,
+          18.817
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.817
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0113_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/asl_e/showee_head/20260521_151718362889_000.mkv",
+    "question": "我现在在做 ASL E，这个姿态怎么保持？",
+    "reference_answer": "把手指向内收拢，保持紧凑的 ASL E 手形。拇指和弯曲的手指都要在画面中，手腕保持稳定。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL E，这个姿态怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 113,
+      "relative_video_path": "20260521_0007_midair_1/asl_e/showee_head/20260521_151718362889_000.mkv",
+      "task": "ASL E",
+      "duration_in_sec": 18.833,
+      "video_intervals": [
+        [
+          0.0,
+          18.833
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.833
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0114_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/asl_g/showee_head/20260521_154845912858_000.mkv",
+    "question": "我现在在做 ASL G，要怎么让它更清楚？",
+    "reference_answer": "让食指和拇指的伸出方向清楚，其他手指收拢。保持手腕角度稳定，避免把伸出的指尖转到看不见的位置。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL G，要怎么让它更清楚？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 114,
+      "relative_video_path": "20260521_0007_midair_2/asl_g/showee_head/20260521_154845912858_000.mkv",
+      "task": "ASL G",
+      "duration_in_sec": 17.867,
+      "video_intervals": [
+        [
+          0.0,
+          17.867
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        17.867
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0115_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/asl_i/showee_head/20260521_153737873223_000.mkv",
+    "question": "我现在在做 ASL I，下一步怎么检查？",
+    "reference_answer": "保持小指清楚伸出，其他手指收拢。把小指放在画面中清楚的位置，手腕不要晃动。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL I，下一步怎么检查？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 115,
+      "relative_video_path": "20260521_0007_midair_2/asl_i/showee_head/20260521_153737873223_000.mkv",
+      "task": "ASL I",
+      "duration_in_sec": 18.783,
+      "video_intervals": [
+        [
+          0.0,
+          18.783
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.783
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0116_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/asl_k/showee_head/20260521_154911839459_000.mkv",
+    "question": "我现在在做 ASL K，应该注意什么？",
+    "reference_answer": "保持 ASL K 的手形，让伸出的两根手指和拇指位置都能看清。手掌角度不要变化太快，短暂停住方便识别。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL K，应该注意什么？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 116,
+      "relative_video_path": "20260521_0007_midair_2/asl_k/showee_head/20260521_154911839459_000.mkv",
+      "task": "ASL K",
+      "duration_in_sec": 18.867,
+      "video_intervals": [
+        [
+          0.0,
+          18.867
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.867
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0117_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+    "question": "我现在要做 ASL L，先怎么摆手？",
+    "reference_answer": "伸出食指和拇指，形成清楚的 L 形。其他手指收拢，手掌朝向保持稳定，让 L 的两个方向都能看清。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在要做 ASL L，先怎么摆手？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 117,
+      "relative_video_path": "20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+      "task": "ASL L",
+      "duration_in_sec": 18.733,
+      "video_intervals": [
+        [
+          0.0,
+          4.683
+        ],
+        [
+          4.683,
+          14.05
+        ],
+        [
+          14.05,
+          18.733
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        4.683
+      ],
+      "turn_index": 0,
+      "turn_count": 3,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0117_turn2",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+    "question": "我已经摆出 L 形了，接下来怎么保持？",
+    "reference_answer": "继续保持食指和拇指的夹角，不要让两根手指贴在一起。双手尽量同步，手腕可以微调但不要遮住 L 形。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在要做 ASL L，先怎么摆手？"
+      },
+      {
+        "role": "assistant",
+        "text": "伸出食指和拇指，形成清楚的 L 形。其他手指收拢，手掌朝向保持稳定，让 L 的两个方向都能看清。"
+      },
+      {
+        "role": "user",
+        "text": "我已经摆出 L 形了，接下来怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 117,
+      "relative_video_path": "20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+      "task": "ASL L",
+      "duration_in_sec": 18.733,
+      "video_intervals": [
+        [
+          0.0,
+          4.683
+        ],
+        [
+          4.683,
+          14.05
+        ],
+        [
+          14.05,
+          18.733
+        ]
+      ],
+      "target_interval": [
+        4.683,
+        14.05
+      ],
+      "turn_index": 1,
+      "turn_count": 3,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0117_turn3",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+    "question": "最后还需要检查什么？",
+    "reference_answer": "收尾时把 L 形短暂停住，确认食指和拇指都清楚伸出，其他手指没有散开。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在要做 ASL L，先怎么摆手？"
+      },
+      {
+        "role": "assistant",
+        "text": "伸出食指和拇指，形成清楚的 L 形。其他手指收拢，手掌朝向保持稳定，让 L 的两个方向都能看清。"
+      },
+      {
+        "role": "user",
+        "text": "我已经摆出 L 形了，接下来怎么保持？"
+      },
+      {
+        "role": "assistant",
+        "text": "继续保持食指和拇指的夹角，不要让两根手指贴在一起。双手尽量同步，手腕可以微调但不要遮住 L 形。"
+      },
+      {
+        "role": "user",
+        "text": "最后还需要检查什么？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 117,
+      "relative_video_path": "20260521_0008_midair_1/asl_l/showee_head/20260521_165232748516_000.mkv",
+      "task": "ASL L",
+      "duration_in_sec": 18.733,
+      "video_intervals": [
+        [
+          0.0,
+          4.683
+        ],
+        [
+          4.683,
+          14.05
+        ],
+        [
+          14.05,
+          18.733
+        ]
+      ],
+      "target_interval": [
+        14.05,
+        18.733
+      ],
+      "turn_index": 2,
+      "turn_count": 3,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0118_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0008_midair_1/asl_y/showee_head/20260521_165325757680_000.mkv",
+    "question": "我现在在做 ASL Y，应该怎么保持？",
+    "reference_answer": "伸出拇指和小指，其他手指收拢，形成清楚的 Y 形。把手放在画面中央，确保两端伸出的手指都能看见。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做 ASL Y，应该怎么保持？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 118,
+      "relative_video_path": "20260521_0008_midair_1/asl_y/showee_head/20260521_165325757680_000.mkv",
+      "task": "ASL Y",
+      "duration_in_sec": 18.783,
+      "video_intervals": [
+        [
+          0.0,
+          18.783
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.783
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0119_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_2/hand_shape/showee_head/20260521_153434266035_000.mkv",
+    "question": "我现在在注册手形，应该怎么做？",
+    "reference_answer": "保持当前手形稳定，把双手放在画面中央。不要频繁换姿态，先停住一小段时间，让系统能清楚记录手指和手腕位置。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在注册手形，应该怎么做？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 119,
+      "relative_video_path": "20260521_0007_midair_2/hand_shape/showee_head/20260521_153434266035_000.mkv",
+      "task": "注册手形",
+      "duration_in_sec": 28.717,
+      "video_intervals": [
+        [
+          0.0,
+          28.717
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        28.717
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  },
+  {
+    "id": "wearable_egoconv_v001_line0120_turn1",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/ily/showee_head/20260521_151125490516_000.mkv",
+    "question": "我现在在做“我爱你”手势，怎么确认做对了？",
+    "reference_answer": "保持拇指、食指和小指清楚伸出，其他手指收拢。手掌朝向稳定，停住一小段时间，让这个组合手形完整可见。",
+    "messages": [
+      {
+        "role": "user",
+        "text": "我现在在做“我爱你”手势，怎么确认做对了？"
+      }
+    ],
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_format": "wearable_egoconv_v001",
+      "source_jsonl": "/data1/shared_data/qwen3vl-showeeData/data/processed/wearable_egoconv_v001.jsonl",
+      "source_line_no": 120,
+      "relative_video_path": "20260521_0007_midair_1/ily/showee_head/20260521_151125490516_000.mkv",
+      "task": "我爱你",
+      "duration_in_sec": 18.767,
+      "video_intervals": [
+        [
+          0.0,
+          18.767
+        ]
+      ],
+      "target_interval": [
+        0.0,
+        18.767
+      ],
+      "turn_index": 0,
+      "turn_count": 1,
+      "review_status": "reviewed_val"
+    }
+  }
+]

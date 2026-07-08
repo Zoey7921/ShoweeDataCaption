@@ -1,0 +1,6 @@
+numpy
+pyyaml
+decord
+peft
+transformers
+torch

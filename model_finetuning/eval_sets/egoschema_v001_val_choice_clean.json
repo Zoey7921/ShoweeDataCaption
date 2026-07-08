@@ -1,0 +1,952 @@
+[
+  {
+    "id": "egoschema_5599b364-197b-41eb-8aa7-02a50de5f59e",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/5599b364-197b-41eb-8aa7-02a50de5f59e.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Identify two critical sub-steps within the video, highlighting the significance of each in relation to the broader process. explain how these sub-steps contribute to the desired outcome without listing individual actions.\nA. The two critical sub-steps in the video are adding the batter to the frying pan and cooking the batter until it is golden brown.\nB. The two critical sub-steps in the video are dropping the dough into the frying pan and turning the dough over.\nC. The two critical sub-steps in the video are adding the ingredients to the bowl and mixing the ingredients together.\nD. The two critical sub-steps in the video are pouring the batter into the pan and flipping the pancakes over.\nE. The two critical sub-steps in the video are adding the syrup to the pancakes and eating the pancakes.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"The two critical sub-steps in the video are dropping the dough into the frying pan and turning the dough over.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "5599b364-197b-41eb-8aa7-02a50de5f59e",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "The two critical sub-steps in the video are dropping the dough into the frying pan and turning the dough over."
+  },
+  {
+    "id": "egoschema_c50c237d-28b2-4907-8730-31060589eb68",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/c50c237d-28b2-4907-8730-31060589eb68.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Summarize the main components of the activity performed by c throughout the video, highlighting any distinct instances or pattern changes.\nA. C sews a piece of fabric.\nB. Carefully, c knits a piece of fabric with dedication and skill.\nC. Carefully, c skillfully crochets a lovely piece of fabric, creating art.\nD. C embroiders a piece of fabric.\nE. In the studio, c carefully paints a decorative piece of fabric for display.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C embroiders a piece of fabric.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "c50c237d-28b2-4907-8730-31060589eb68",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C embroiders a piece of fabric."
+  },
+  {
+    "id": "egoschema_34125d63-5dc5-44dd-af35-1d6528b37f74",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/34125d63-5dc5-44dd-af35-1d6528b37f74.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Summarize the main objective of the video and discuss the important steps in the process, without recounting the specific actions in detail.\nA. The main objective of the video is to show how to grind and polish iron rods.\nB. The primary purpose of this video presentation is to effectively demonstrate the process of making iron rods.\nC. The primary aim of this instructional video is to clearly demonstrate the proper technique for sharpening iron rods effectively.\nD. The main objective of the video is to show how to weld iron rods.\nE. The primary aim of the video is to effectively demonstrate the process of cutting iron rods with ease.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"The main objective of the video is to show how to grind and polish iron rods.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "34125d63-5dc5-44dd-af35-1d6528b37f74",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "The main objective of the video is to show how to grind and polish iron rods."
+  },
+  {
+    "id": "egoschema_2487a677-28a5-4767-a03b-f34e3f7ba151",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/2487a677-28a5-4767-a03b-f34e3f7ba151.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: In the video, describe and analyze the primary objects the person is using to wash various types of plates. what are their purposes, and how are they used differently depending on plate material or a specific task?\nA. The person uses a sponge scourer, a steel scourer, and a dishwashing liquid to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the dishwashing liquid is used to create suds, which help to loosen dirt and grime.\nB. The person uses a sponge scourer, a steel scourer, and a dishwasher to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the dishwasher is used to rinse the plates and to dry them.\nC. The person uses a sponge scourer, a steel scourer, and a tap to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the tap is used to rinse the plates and to apply soap.\nD. The person uses a sponge scourer, a steel scourer, and a sink to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the sink is used to rinse the plates and to drain them.\nE. The person uses a sponge scourer, a steel scourer, and a bucket to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the bucket is used to rinse the plates and to soak them.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The person uses a sponge scourer, a steel scourer, and a tap to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the tap is used to rinse the plates and to apply soap.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "2487a677-28a5-4767-a03b-f34e3f7ba151",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The person uses a sponge scourer, a steel scourer, and a tap to wash the plates. the sponge scourer is used to remove dirt and grime from the plates, while the steel scourer is used to remove tough stains. the tap is used to rinse the plates and to apply soap."
+  },
+  {
+    "id": "egoschema_edb5c7f4-636f-47e6-97f8-b27795aaeec5",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/edb5c7f4-636f-47e6-97f8-b27795aaeec5.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What was the overarching objective of c's actions throughout the video?\nA. To clean a collection of bags.\nB. The goal is to responsibly recycle a diverse collection of bags efficiently.\nC. To organize a collection of bags.\nD. The charitable act involves deciding to donate a collection of bags generously.\nE. The goal is to successfully sell a diverse collection of various bags.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"To organize a collection of bags.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "edb5c7f4-636f-47e6-97f8-b27795aaeec5",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "To organize a collection of bags."
+  },
+  {
+    "id": "egoschema_57055009-9f69-4f1c-b4cf-7ac0a079e4ca",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/57055009-9f69-4f1c-b4cf-7ac0a079e4ca.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Describe the overall process and purpose of c's actions throughout the video, focusing on the main steps she took in her activity.\nA. C is cleaning a paintbrush.\nB. C is painting a picture.\nC. C is preparing a cup of water.\nD. C is resting her hand on the table.\nE. C is rubbing the bristles of the paintbrush.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C is painting a picture.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "57055009-9f69-4f1c-b4cf-7ac0a079e4ca",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C is painting a picture."
+  },
+  {
+    "id": "egoschema_f81b2bd4-0e81-491a-861e-987ec0ad8649",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/f81b2bd4-0e81-491a-861e-987ec0ad8649.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What was the primary recurring task involving tools that c was performing throughout the video, and how did this contribute to his overall goal?\nA. C was diligently using a trusty screwdriver to skillfully turn and tighten screws securely.\nB. In the workshop, c was skillfully using a hefty hammer to firmly pound nails into place.\nC. C was using a wrench to open and close nuts.\nD. C was using a saw to cut wood.\nE. Skillfully, c was actively utilizing a power drill to accurately bore numerous holes.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C was using a wrench to open and close nuts.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "f81b2bd4-0e81-491a-861e-987ec0ad8649",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C was using a wrench to open and close nuts."
+  },
+  {
+    "id": "egoschema_b5867202-c87b-4ffa-8617-e8b2e9eba1a2",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/b5867202-c87b-4ffa-8617-e8b2e9eba1a2.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Describe the main objective and overall process depicted in the video, mentioning the primary actions performed by c and the person.\nA. C is practicing magic tricks.\nB. C is playing a card game with the person.\nC. Currently, c is actively engaged in playing a strategic board game.\nD. Currently, c is diligently sorting numerous playing cards.\nE. Currently, c is diligently constructing a delicate house of cards.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C is playing a card game with the person.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "b5867202-c87b-4ffa-8617-e8b2e9eba1a2",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C is playing a card game with the person."
+  },
+  {
+    "id": "egoschema_24f4b88e-2294-4017-a669-9e27c07d44e7",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/24f4b88e-2294-4017-a669-9e27c07d44e7.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: How would you concisely describe the overall process that c undertakes in order to prepare the plantain flower throughout this video?\nA. C chops and slices the plantain flower, then arranges it in a tray.\nB. Carefully, c slices the plantain flower into small, manageable pieces for cooking.\nC. Carefully, c peels away the outer layers of the plantain flower.\nD. Carefully, c skillfully cooks the delicious plantain flower in the kitchen.\nE. C eats the plantain flower.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"C chops and slices the plantain flower, then arranges it in a tray.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "24f4b88e-2294-4017-a669-9e27c07d44e7",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "C chops and slices the plantain flower, then arranges it in a tray."
+  },
+  {
+    "id": "egoschema_d135be4f-96a4-4a14-82a1-7d8d34546752",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/d135be4f-96a4-4a14-82a1-7d8d34546752.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Identify the primary objective of the actions performed in the video and describe the techniques used to achieve that objective without listing the individual actions.\nA. The primary objective of the actions performed in the video is to clean the inside of a vacuum wand. the techniques used to achieve this objective include using a metal rod to reach into the narrow openings of the vacuum wand and using a flashlight to illuminate the inside of the vacuum wand.\nB. The main primary objective of the various actions skillfully performed in the demonstrative video is to carefully disassemble a vacuum wand component.\nC. The primary objective of the actions performed in the video is to repair a vacuum wand.\nD. The main purpose behind the primary objective of the actions performed in the video is to carefully inspect and examine a vacuum wand.\nE. The main primary objective of all the actions carefully performed in the informative video is to efficiently assemble a vacuum wand.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"The primary objective of the actions performed in the video is to clean the inside of a vacuum wand. the techniques used to achieve this objective include using a metal rod to reach into the narrow openings of the vacuum wand and using a flashlight to illuminate the inside of the vacuum wand.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "d135be4f-96a4-4a14-82a1-7d8d34546752",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "The primary objective of the actions performed in the video is to clean the inside of a vacuum wand. the techniques used to achieve this objective include using a metal rod to reach into the narrow openings of the vacuum wand and using a flashlight to illuminate the inside of the vacuum wand."
+  },
+  {
+    "id": "egoschema_c4bdfb22-e10a-49a0-a8fe-60ec2b966b56",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/c4bdfb22-e10a-49a0-a8fe-60ec2b966b56.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Based on the actions performed by the woman in the video, determine her primary goal and support your conclusion with relevant evidence from the video.\nA. The woman's primary goal is to work in the grocery store. she is stocking shelves and helping customers.\nB. The woman's primary goal is to buy groceries. she is shopping for items such as cereal, milk, and cookies.\nC. The woman's primary goal is to socialize. she is talking to other shoppers and employees.\nD. The woman's primary goal is to relax. she is listening to music and taking pictures.\nE. The woman's primary goal is to document her shopping trip. she is taking pictures of the items she buys and the people she sees.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"The woman's primary goal is to buy groceries. she is shopping for items such as cereal, milk, and cookies.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "c4bdfb22-e10a-49a0-a8fe-60ec2b966b56",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "The woman's primary goal is to buy groceries. she is shopping for items such as cereal, milk, and cookies."
+  },
+  {
+    "id": "egoschema_00faf954-74f7-4aa3-8b29-4a5dff4f9518",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/00faf954-74f7-4aa3-8b29-4a5dff4f9518.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary sequence of actions performed by c throughout the video, and how do these actions relate to the overall task being performed?\nA. C cleans brick mold with his hand.\nB. C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, and drops brick from brick mold beside already made bricks on the floor. then, c cleans brick mold with his hand.\nC. C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, drops brick from brick mold beside already made bricks on the floor. then, c takes a break.\nD. C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, drops brick from brick mold beside already made bricks on the floor. then, c goes to sleep.\nE. C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, and drops brick from brick mold beside already made bricks on the floor.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, and drops brick from brick mold beside already made bricks on the floor.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "00faf954-74f7-4aa3-8b29-4a5dff4f9518",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C scoops clay into the brick mold, removes clay from the brick mold, scoops mortar from a pile of mortar on the floor, slams mortar into the brick mold, scoops excess mortar from the brick mold, throws excess mortar on the pile of mortar in his front, adds clay from the floor on the brick mold, and drops brick from brick mold beside already made bricks on the floor."
+  },
+  {
+    "id": "egoschema_e48b8359-d35e-45f1-aa3b-eb1417e10dc8",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/e48b8359-d35e-45f1-aa3b-eb1417e10dc8.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: In the video, what was the primary method c used to efficiently plant seedlings?\nA. Carefully, c planted the seedlings by gently picking them up with her left hand, passing them securely to her right hand, and then meticulously planting them in the rich soil with her left hand.\nB. C planted the seedlings by picking them up with her right hand, planting them in the soil with her right hand, and then passing them to her left hand.\nC. Carefully, c planted the seedlings by gently picking them up with her left hand, skillfully planting them in the rich soil with her left hand, and then smoothly passing them to her right hand.\nD. Carefully, c planted the seedlings by picking them up with her right hand, gently passing them to her left hand, and then skillfully dropping them onto the ground surface.\nE. C planted the seedlings by picking them up with her right hand, passing them to her left hand, and then planting them in the soil with her right hand.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C planted the seedlings by picking them up with her right hand, passing them to her left hand, and then planting them in the soil with her right hand.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "e48b8359-d35e-45f1-aa3b-eb1417e10dc8",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C planted the seedlings by picking them up with her right hand, passing them to her left hand, and then planting them in the soil with her right hand."
+  },
+  {
+    "id": "egoschema_d299858f-cde8-49a9-a713-fb546db0a268",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/d299858f-cde8-49a9-a713-fb546db0a268.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary repetitive task in this video, and how does it evolve throughout the video?\nA. In this video, the main primary repetitive task consistently carried out involves accurately measuring the wall's dimensions.\nB. The primary repetitive task in this video is interacting with other people.\nC. The primary repetitive task in this video is plastering a wall with mortar.\nD. In this video, the primary repetitive task being performed consistently is scraping off mortar from the wall surface.\nE. In this video, the primary and most repetitive task being performed consistently is pouring and spreading mortar on the wall surface.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The primary repetitive task in this video is plastering a wall with mortar.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "d299858f-cde8-49a9-a713-fb546db0a268",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The primary repetitive task in this video is plastering a wall with mortar."
+  },
+  {
+    "id": "egoschema_470dad8b-6c95-440c-b990-5b123ec64497",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/470dad8b-6c95-440c-b990-5b123ec64497.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Given all the interactions between c and various items, what could be the primary purpose behind c's actions in the workshop?\nA. C is cleaning the wood in the workshop.\nB. C is organizing the wood in the workshop.\nC. C is repairing the wood in the workshop.\nD. C is building something with the wood in the workshop.\nE. C is painting the wood in the workshop.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C is organizing the wood in the workshop.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "470dad8b-6c95-440c-b990-5b123ec64497",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C is organizing the wood in the workshop."
+  },
+  {
+    "id": "egoschema_994aecb6-ded3-4d5f-8f52-f0038a6dc057",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/994aecb6-ded3-4d5f-8f52-f0038a6dc057.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Compare and contrast the behaviors of the two characters in the video. how do their actions reflect their respective priorities or interests?\nA. The two characters in the video have the same priorities and interests. they are both focused on reading the book.\nB. The two characters in the video have opposite priorities and interests. the man is focused on reading the book, while the woman is focused on other activities, such as watching tv or talking on the phone.\nC. The two characters in the video have different priorities and interests. the man is focused on reading the book, while the woman is focused on other activities, such as moving around the room and adjusting her position.\nD. The two characters in the video have complementary priorities and interests. the man is focused on reading the book, while the woman is focused on providing him with support, such as making sure he has a comfortable chair to sit in and a cup of coffee to drink.\nE. The two characters in the video have no priorities or interests. they are both just sitting there, doing nothing.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The two characters in the video have different priorities and interests. the man is focused on reading the book, while the woman is focused on other activities, such as moving around the room and adjusting her position.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "994aecb6-ded3-4d5f-8f52-f0038a6dc057",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The two characters in the video have different priorities and interests. the man is focused on reading the book, while the woman is focused on other activities, such as moving around the room and adjusting her position."
+  },
+  {
+    "id": "egoschema_740db272-61ce-43c8-88a9-46d669d93bfb",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/740db272-61ce-43c8-88a9-46d669d93bfb.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary objective of the character in this video, and how does their approach change throughout the process?\nA. The primary objective of the character in this video is to make a pizza.\nB. The primary objective of the character in this video is to bake a cake.\nC. The primary objective of the character in this video is to cook a meal.\nD. The primary objective of the character in this video is to prepare dough.\nE. The primary objective of the character in this video is to clean the kitchen.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"The primary objective of the character in this video is to prepare dough.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "740db272-61ce-43c8-88a9-46d669d93bfb",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "The primary objective of the character in this video is to prepare dough."
+  },
+  {
+    "id": "egoschema_35ba0822-a2fd-46e5-890a-2aab45f3ce6a",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/35ba0822-a2fd-46e5-890a-2aab45f3ce6a.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: How would you describe the pattern of behavior c exhibits while interacting with the various items in the video?\nA. Character c consistently exhibits a pattern of behavior that appears disorganized, confused, and especially chaotic.\nB. Characteristically, person c exhibits a consistent pattern of behavior that is noticeably slow and quite deliberate in nature.\nC. Characteristic c consistently exhibits a pattern of behavior that is noticeably careless and rather sloppy.\nD. C exhibits a pattern of behavior that is playful and carefree.\nE. C exhibits a pattern of behavior that is focused and efficient.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C exhibits a pattern of behavior that is focused and efficient.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "35ba0822-a2fd-46e5-890a-2aab45f3ce6a",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C exhibits a pattern of behavior that is focused and efficient."
+  },
+  {
+    "id": "egoschema_6c901d03-3413-41a8-9aa0-8f9f6ed6b6f1",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/6c901d03-3413-41a8-9aa0-8f9f6ed6b6f1.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Summarize the unique ways in which the three individuals prepared and ate their tacos, focusing on the most prominent differences.\nA. The three individuals prepared and ate their tacos in the same way. they all used a fork to eat their tacos.\nB. Interestingly, the three individuals prepared and consumed their tacos in unique ways. the adult man utilized a fork for eating his tacos, whereas the woman and child employed their hands. the woman additionally devoured her tacos using both hands, while the young child managed to eat her tacos using only one hand.\nC. In distinct manners, the three unrelated individuals prepared and consumed their tacos. the adult man utilized a fork for eating his tacos, whereas the woman and child relied on their hands. impressively, the woman managed to eat her tacos with both hands, while the child skillfully ate his tacos with just one hand.\nD. The three individuals, following the same method, prepared and consumed their tacos in an identical way. they all consistently used their hands to eat their delicious tacos.\nE. The three individuals prepared and ate their tacos in different ways. the man used a fork to eat his tacos, while the woman and child used their hands. the man also ate his tacos with both hands, while the woman and child ate their tacos with one hand.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"The three individuals prepared and ate their tacos in different ways. the man used a fork to eat his tacos, while the woman and child used their hands. the man also ate his tacos with both hands, while the woman and child ate their tacos with one hand.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "6c901d03-3413-41a8-9aa0-8f9f6ed6b6f1",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "The three individuals prepared and ate their tacos in different ways. the man used a fork to eat his tacos, while the woman and child used their hands. the man also ate his tacos with both hands, while the woman and child ate their tacos with one hand."
+  },
+  {
+    "id": "egoschema_f9a68735-7030-4fb5-95fd-cef0529611bf",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/f9a68735-7030-4fb5-95fd-cef0529611bf.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Analyze the sequence of events and identify the overarching process shown in the video. what is its purpose?\nA. The video shows the process of making a sandwich. the purpose of this process is to create a quick and easy meal.\nB. The video shows the process of making a smoothie. the purpose of this process is to create a healthy and refreshing drink.\nC. The video shows the process of making a soup. the purpose of this process is to create a warm and comforting meal.\nD. The video shows the process of making a stir-fry. the purpose of this process is to create a quick and easy meal with lots of vegetables.\nE. The video shows the process of preparing a salad. the purpose of this process is to create a healthy and delicious meal.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"The video shows the process of preparing a salad. the purpose of this process is to create a healthy and delicious meal.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "f9a68735-7030-4fb5-95fd-cef0529611bf",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "The video shows the process of preparing a salad. the purpose of this process is to create a healthy and delicious meal."
+  },
+  {
+    "id": "egoschema_b5b05854-df14-43bd-ac45-4301c6d734ec",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/b5b05854-df14-43bd-ac45-4301c6d734ec.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Compare the tasks c performs in the earlier segments of the video to those in the latter segments. how has the purpose or intensity of c's work evolved over the course of the video?\nA. C's work in the earlier segments of the video is more focused on conversing with the person, while his work in the latter segments is more focused on hammering metal rods.\nB. C's work in the earlier segments of the video is more focused on picking up and putting down tools, while his work in the latter segments is more focused on turning and looking around the workshop.\nC. C's work in the earlier segments of the video is more focused on turning and looking around the workshop, while his work in the latter segments is more focused on hammering metal rods.\nD. C's work in the earlier segments of the video is more focused on hammering metal rods, while his work in the latter segments is more focused on filing them.\nE. C's work in the earlier segments of the video is more focused on filing the metal rods, while his work in the latter segments is more focused on welding them.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C's work in the earlier segments of the video is more focused on filing the metal rods, while his work in the latter segments is more focused on welding them.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "b5b05854-df14-43bd-ac45-4301c6d734ec",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C's work in the earlier segments of the video is more focused on filing the metal rods, while his work in the latter segments is more focused on welding them."
+  },
+  {
+    "id": "egoschema_a9287000-7f70-4cce-89e0-66cc197c079e",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/a9287000-7f70-4cce-89e0-66cc197c079e.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: As the character engages in a variety of tasks, which ones could be considered the most critical steps in the food preparation process, and why?\nA. Among the most critical steps in the entire food preparation process are properly cooking the food items.\nB. The most critical steps in the food preparation process are peeling and slicing the food.\nC. The most critical steps in the food preparation process are cleaning the food.\nD. Among the most critical steps in the food preparation process, properly storing the food holds immense significance.\nE. In the food preparation process, the most critical steps predominantly involve serving the food diligently.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"The most critical steps in the food preparation process are peeling and slicing the food.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "a9287000-7f70-4cce-89e0-66cc197c079e",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "The most critical steps in the food preparation process are peeling and slicing the food."
+  },
+  {
+    "id": "egoschema_b70e3446-2c06-49fd-8d15-dfafd1b8eb09",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/b70e3446-2c06-49fd-8d15-dfafd1b8eb09.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary objective of c throughout the video, and how does their action sequence contribute to achieving it?\nA. C's primary objective throughout the entire video is to diligently learn how to skillfully operate a forklift. c's action sequence significantly contributes to achieving this objective by thoroughly practicing operating the forklift in a safe, secure, and controlled environment.\nB. C's primary objective all through the video is to impress their friends immensely. c's action sequence contributes significantly to achieving this objective by skillfully performing a series of challenging and difficult maneuvers with the forklift.\nC. While c's primary objective throughout the video is to secure a job as a forklift operator, c's action sequence contributes to achieving this objective by effectively demonstrating their impressive skills and proficient abilities in operating a forklift.\nD. C's primary objective throughout the video is to have fun. c's action sequence contributes to achieving this objective by performing a series of exciting and challenging maneuvers with the forklift.\nE. C's primary objective throughout the video is to move a series of stones from one location to another. c's action sequence contributes to achieving this objective by first lifting the stones with the forklift, then reversing the forklift to move the stones to the desired location, and finally lowering the stones.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C's primary objective throughout the video is to move a series of stones from one location to another. c's action sequence contributes to achieving this objective by first lifting the stones with the forklift, then reversing the forklift to move the stones to the desired location, and finally lowering the stones.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "b70e3446-2c06-49fd-8d15-dfafd1b8eb09",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C's primary objective throughout the video is to move a series of stones from one location to another. c's action sequence contributes to achieving this objective by first lifting the stones with the forklift, then reversing the forklift to move the stones to the desired location, and finally lowering the stones."
+  },
+  {
+    "id": "egoschema_3127e6b0-83c8-4211-b695-3ee349d2f89b",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/3127e6b0-83c8-4211-b695-3ee349d2f89b.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Provide a brief summarization of the significant steps c took to prepare the mango, highlighting only the key moments that contributed to the overall process.\nA. C holds down the slice of mango on the chopping board with her right hand, then cuts it with the knife in her left hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces.\nB. C holds down the slice of mango on the chopping board with her left hand, then cuts it with the knife in her right hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into large pieces.\nC. C holds down the slice of mango on the chopping board with her left hand, then cuts it with the knife in her right hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces.\nD. C holds down the slice of mango on the chopping board with her right hand, then cuts it with the knife in her left hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces, but she does not remove the mango from the chopping board between cuts.\nE. C holds down the slice of mango on the chopping board with her left hand, then cuts it with the knife in her right hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces, but she does not cut all the way through the mango on each cut.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C holds down the slice of mango on the chopping board with her left hand, then cuts it with the knife in her right hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "3127e6b0-83c8-4211-b695-3ee349d2f89b",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C holds down the slice of mango on the chopping board with her left hand, then cuts it with the knife in her right hand. she then turns the slice of mango and cuts it again. she repeats this process until the mango is cut into small pieces."
+  },
+  {
+    "id": "egoschema_943374f4-4514-4e22-827b-7452b91e5559",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/943374f4-4514-4e22-827b-7452b91e5559.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Identify the main purpose of c's adjustments in the video, and explain the importance of these adjustments in the context of the entire video.\nA. C's adjustments are specifically designed to generate a more complex pattern. she meticulously adjusts the position of her stitches, the diverse type of stitches she utilizes, and the order in which she effortlessly stitches them. these vital adjustments assist her in creating a more detailed, intricate pattern.\nB. C's adjustments aim to create a more vibrant, colorful pattern. she modifies the yarn color choice, the sequence she uses the hues, and the technique for combining them. these adaptations help her achieve a more visually appealing colorful pattern.\nC. C's adjustments are designed to maintain the tension in the yarn and to prevent her finger from becoming sore. she adjusts the position of her finger, the amount of pressure she applies, and the speed at which she crochets. these adjustments help her to crochet more efficiently and to avoid pain.\nD. C's adjustments are designed to create a more textured pattern. she changes the type of yarn she is using, the way she stitches the yarn, and the way she combines the stitches. these adjustments help her to create a more textured pattern.\nE. C's precise adjustments are intentionally designed to create a more symmetrical pattern. carefully, she modifies the position of her stitches, the specific type of stitches she employs, and the particular order in which she stitches them. these alterations greatly assist her in establishing a more symmetrical pattern.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C's adjustments are designed to maintain the tension in the yarn and to prevent her finger from becoming sore. she adjusts the position of her finger, the amount of pressure she applies, and the speed at which she crochets. these adjustments help her to crochet more efficiently and to avoid pain.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "943374f4-4514-4e22-827b-7452b91e5559",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C's adjustments are designed to maintain the tension in the yarn and to prevent her finger from becoming sore. she adjusts the position of her finger, the amount of pressure she applies, and the speed at which she crochets. these adjustments help her to crochet more efficiently and to avoid pain."
+  },
+  {
+    "id": "egoschema_05ad5736-88f5-42bb-ac9f-689e199c50de",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/05ad5736-88f5-42bb-ac9f-689e199c50de.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Summarize the process c uses to prepare her brush for painting and how it contributes to the artwork's quality.\nA. C cleans the paint brush in her right hand in the small cup on the floor, which helps to keep the brush clean and free of debris.\nB. Skillfully, c mixes paint on the paint board using the brush in her right hand, which enables her to effortlessly create a wide variety of different colors and shades for her artwork.\nC. Skillfully, c picks paint from the paint board using the brush in her right hand, which conveniently allows her to apply paint gracefully onto the canvas.\nD. C loosens the color intensity on the paint brush in her right hand in the small cup on the floor, which allows her to create a more subtle and nuanced effect.\nE. Carefully, c paints with the paint brush skillfully on the art work displayed on the canvas, which is the ultimate, final step in the entire painting process.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C loosens the color intensity on the paint brush in her right hand in the small cup on the floor, which allows her to create a more subtle and nuanced effect.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "05ad5736-88f5-42bb-ac9f-689e199c50de",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C loosens the color intensity on the paint brush in her right hand in the small cup on the floor, which allows her to create a more subtle and nuanced effect."
+  },
+  {
+    "id": "egoschema_9de66400-05ec-4173-93c9-16c2cc9d881d",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/9de66400-05ec-4173-93c9-16c2cc9d881d.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Describe how c's actions change after interacting with a girl and opening a door, and explain the significance of those changes in relation to the overall video.\nA. C's actions change after interacting with the girl and opening a door in that he becomes more focused on his task.\nB. C's actions notably change after interacting with the girl and opening a door, in that he becomes more playful and lighthearted.\nC. C's actions noticeably change after interacting with the girl and opening a door, resulting in him becoming significantly more frustrated.\nD. C's actions gradually change after interacting with the girl, and upon opening a door, he becomes more relaxed and at ease.\nE. C's actions change after interacting with the girl and opening a door in that he becomes more confused.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"C's actions change after interacting with the girl and opening a door in that he becomes more focused on his task.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "9de66400-05ec-4173-93c9-16c2cc9d881d",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "C's actions change after interacting with the girl and opening a door in that he becomes more focused on his task."
+  },
+  {
+    "id": "egoschema_84d775ff-e0ee-4072-b0ce-7d7cb04af615",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/84d775ff-e0ee-4072-b0ce-7d7cb04af615.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Based on the video, what can be inferred about c's level of skill and care while handling the cloth and scissors, and how does that reflect on the significance of the task being carried out?\nA. C was not very skilled and careful while handling the cloth and scissors.\nB. C was neither skilled nor careful while handling the cloth and scissors.\nC. C was very skilled and careful while handling the cloth and scissors.\nD. C was skilled but not careful while handling the cloth and scissors.\nE. C was careful but not skilled while handling the cloth and scissors.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C was very skilled and careful while handling the cloth and scissors.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "84d775ff-e0ee-4072-b0ce-7d7cb04af615",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C was very skilled and careful while handling the cloth and scissors."
+  },
+  {
+    "id": "egoschema_39b6ed4d-c5cb-4ad9-922b-6fda4e4a1531",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/39b6ed4d-c5cb-4ad9-922b-6fda4e4a1531.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What can be inferred as the primary reason behind c's repeated actions involving the cards and their significance in the context of the video?\nA. C is trying to impress the woman.\nB. C is trying to teach the woman how to play cards.\nC. C is trying to pass the time.\nD. C is trying to solve the puzzle.\nE. C is trying to win the card game.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"C is trying to win the card game.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "39b6ed4d-c5cb-4ad9-922b-6fda4e4a1531",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "C is trying to win the card game."
+  },
+  {
+    "id": "egoschema_358bdb29-d3e8-4af7-99e8-4d81da2d77b1",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/358bdb29-d3e8-4af7-99e8-4d81da2d77b1.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Based on the character's actions, what are two key tools or objects they utilized to accomplish their goal, and why are these tools significant?\nA. The two key tools or objects that the character utilized to accomplish their goal are the marker and the table saw.\nB. The two key tools or objects that the character utilized to accomplish their goal are the wood plank and the box.\nC. The two key tools or objects that the character utilized to accomplish their goal are the engineer square and the pencil.\nD. The two key tools or objects that the character utilized to accomplish their goal are the left hand and the right hand.\nE. The two key tools or objects that the character utilized to accomplish their goal are the floor and the table.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"The two key tools or objects that the character utilized to accomplish their goal are the marker and the table saw.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "358bdb29-d3e8-4af7-99e8-4d81da2d77b1",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "The two key tools or objects that the character utilized to accomplish their goal are the marker and the table saw."
+  },
+  {
+    "id": "egoschema_1541b81e-cc80-4201-a636-9a39c2d20faa",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/1541b81e-cc80-4201-a636-9a39c2d20faa.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: In your understanding, which specific actions in the video contributed the most to successfully executing the main tasks, and why do you think they were critical in the larger context of the video?\nA. In the video, the most important actions demonstrated were going to bed, waking up, and getting ready for work efficiently.\nB. The most important actions in the video were playing video games, watching tv, and eating dinner.\nC. The most important actions in the video were turning on the washing machine, sorting the clothes, and making breakfast.\nD. In the video, the most important actions featured were walking the dog, going to the park, and engaging in playing fetch.\nE. The most important actions highlighted in the video involved going to the bathroom, taking a refreshing shower, and getting dressed appropriately.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The most important actions in the video were turning on the washing machine, sorting the clothes, and making breakfast.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "1541b81e-cc80-4201-a636-9a39c2d20faa",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The most important actions in the video were turning on the washing machine, sorting the clothes, and making breakfast."
+  },
+  {
+    "id": "egoschema_05f1fc03-0c9e-4fd4-9d85-bb7be4e69234",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/05f1fc03-0c9e-4fd4-9d85-bb7be4e69234.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Describe the overall goal achieved by c throughout the video and explain how the various trowels were used in working with the cement cast.\nA. C is attempting diligently to break the solid cement cast surrounding it.\nB. C is attempting to carefully remove the solid cement cast from their body.\nC. C is trying to repair the cement cast.\nD. C is smoothing the cement cast with a flooring trowel and a bucket trowel.\nE. C is attempting to creatively embellish the sturdy cement cast for aesthetics.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C is smoothing the cement cast with a flooring trowel and a bucket trowel.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "05f1fc03-0c9e-4fd4-9d85-bb7be4e69234",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C is smoothing the cement cast with a flooring trowel and a bucket trowel."
+  },
+  {
+    "id": "egoschema_0688f66e-f115-49c6-85ff-712bf4f4a758",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/0688f66e-f115-49c6-85ff-712bf4f4a758.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Explain the significance of the peeler and the knife in the video and their respective roles in the preparation process.\nA. The peeler is used to cut the stem and taproot of the carrots, while the knife is used to peel them.\nB. The peeler is commonly utilized to expertly cut the carrots into significantly smaller pieces, while the knife is employed to carefully peel them and competently cut the stem and taproot.\nC. The knife is conveniently used to remove the delicate skin of the carrots, while the peeler efficiently is used to cut the stem and taproot precisely, and to cut the carrots into consistently smaller pieces.\nD. The knife is employed to precisely slice the stem and taproot of the carrots, whereas the peeler is effectively utilized to cut them into smaller, manageable pieces.\nE. The peeler is used to remove the skin of the carrots, while the knife is used to cut the stem and taproot, and to cut the carrots into smaller pieces.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"The peeler is used to remove the skin of the carrots, while the knife is used to cut the stem and taproot, and to cut the carrots into smaller pieces.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "0688f66e-f115-49c6-85ff-712bf4f4a758",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "The peeler is used to remove the skin of the carrots, while the knife is used to cut the stem and taproot, and to cut the carrots into smaller pieces."
+  },
+  {
+    "id": "egoschema_6dd07731-937c-4b63-b296-0a947ffe6996",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/6dd07731-937c-4b63-b296-0a947ffe6996.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Can you identify a recurring pattern in c's actions and explain its significance in the context of the video?\nA. Casually, c repeatedly glances and looks around the room, which strongly suggests that c is attempting to locate or find something.\nB. C repeatedly moves around the room, which suggests that c is trying to get comfortable.\nC. Frequently, c repeatedly utilizes the laptop, clearly indicating that c is diligently attempting to complete and finish work.\nD. C repeatedly picks up and puts down objects, such as the laptop, cables, and charger. this suggests that c is trying to decide what to pack and how to pack it.\nE. C persistently and repeatedly covers the pen, which strongly suggests that c is apparently attempting to hide something.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C repeatedly picks up and puts down objects, such as the laptop, cables, and charger. this suggests that c is trying to decide what to pack and how to pack it.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "6dd07731-937c-4b63-b296-0a947ffe6996",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C repeatedly picks up and puts down objects, such as the laptop, cables, and charger. this suggests that c is trying to decide what to pack and how to pack it."
+  },
+  {
+    "id": "egoschema_9a267805-2e0d-45a9-b3a4-bfdc9ee48363",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/9a267805-2e0d-45a9-b3a4-bfdc9ee48363.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Summarize the overall process c undertook in creating and refining the pottery item in the video, and identify two distinct phases in this process.\nA. Initially, c first skillfully creates a rough shape of the pottery item by using his hands. afterward, he then employs a clay mold to give the pottery item its precise final shape.\nB. Initially, c first creates a rough basic shape of the pottery item by skillfully using a clay mold. following that, he then carefully uses his hands to accurately give the pottery item its final desired shape.\nC. C first creates a rough shape of the pottery item by hitting it with a wood plank. he then uses a clay mold to give the pottery item its final shape.\nD. C first creates a rough shape of the pottery item by using a wood plank. he then uses his hands to give the pottery item its final shape.\nE. Initially, c skillfully creates a rough outline of the pottery item using his hands. he subsequently employs a wood plank to provide the pottery item with its definitive, final shape.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C first creates a rough shape of the pottery item by hitting it with a wood plank. he then uses a clay mold to give the pottery item its final shape.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "9a267805-2e0d-45a9-b3a4-bfdc9ee48363",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C first creates a rough shape of the pottery item by hitting it with a wood plank. he then uses a clay mold to give the pottery item its final shape."
+  },
+  {
+    "id": "egoschema_13b86f2e-c0a4-44f3-a871-2138576aa127",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/13b86f2e-c0a4-44f3-a871-2138576aa127.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Compare the significance of c rubbing her right hand together with her other actions in the video, and identify why she might have been doing this frequently.\nA. C rubbed her right hand together when she was nervous or anxious.\nB. Often, when feeling bored or restless, c unconsciously rubbed her right hand together gently.\nC. C would often rub her right hand together gently whenever she felt particularly happy or quite excited.\nD. C rubbed her right hand together when she was thinking, planning, or trying to solve a problem.\nE. Whenever she felt sad or frustrated, c instinctively rubbed her right hand together for comfort.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C rubbed her right hand together when she was thinking, planning, or trying to solve a problem.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "13b86f2e-c0a4-44f3-a871-2138576aa127",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C rubbed her right hand together when she was thinking, planning, or trying to solve a problem."
+  },
+  {
+    "id": "egoschema_901ae1fe-5be2-495b-9506-9ec2a28d8ae0",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/901ae1fe-5be2-495b-9506-9ec2a28d8ae0.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Identify the primary theme present throughout the video, and provide key actions or scenes that support your assessment of this theme.\nA. The primary theme present throughout the video is anxiety. this is evident in the fact that c stares at her hand, touches her shoes, and looks around.\nB. In the video, the primary theme consistently present throughout is nervousness. this is clearly evident due to the fact that character c repeatedly stares at her hand, fidgets with her shoes, and constantly looks around.\nC. The primary theme present throughout the video is cleanliness. this is evident in the fact that c washes her hands multiple times, interacts with the man in a friendly way, and wipes her hands on a tissue paper.\nD. The predominant primary theme present consistently throughout the entire video is friendliness. this aspect is clearly evident in the fact that character c interacts with the man in a genuinely friendly way.\nE. The most noticeable primary theme present throughout the entire video is politeness. this aspect is clearly evident in the fact that character c courteously shakes the man's hand.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The primary theme present throughout the video is cleanliness. this is evident in the fact that c washes her hands multiple times, interacts with the man in a friendly way, and wipes her hands on a tissue paper.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "901ae1fe-5be2-495b-9506-9ec2a28d8ae0",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The primary theme present throughout the video is cleanliness. this is evident in the fact that c washes her hands multiple times, interacts with the man in a friendly way, and wipes her hands on a tissue paper."
+  },
+  {
+    "id": "egoschema_e9322513-15b2-4b89-8ddb-7d1432beb8a1",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/e9322513-15b2-4b89-8ddb-7d1432beb8a1.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Considering the entire process shown in the video, can you identify the critical steps that c took, and briefly explain their significance in the craft projects?\nA. The critical steps in the craft projects are choosing the right materials, cutting out the shapes, and sewing the pieces together.\nB. The crucial, critical steps in executing the craft projects effectively are diligently following the instructions carefully, consistently being patient, and employing a steady hand.\nC. The critical steps in the craft projects are cutting the thread, knotting the ends of the thread together, straightening out the thread, and sewing the craft with the needle.\nD. The essential critical steps in executing craft projects are being creative, actively using your vivid imagination, and thoroughly having immense fun.\nE. The critical steps in executing various craft projects include being careful not to cut yourself, ensuring not to lose the tiny pieces, and diligently avoiding making any errors or mistakes.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The critical steps in the craft projects are cutting the thread, knotting the ends of the thread together, straightening out the thread, and sewing the craft with the needle.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "e9322513-15b2-4b89-8ddb-7d1432beb8a1",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The critical steps in the craft projects are cutting the thread, knotting the ends of the thread together, straightening out the thread, and sewing the craft with the needle."
+  },
+  {
+    "id": "egoschema_fe375c7f-6cf0-41aa-8eac-df89817c38e2",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/fe375c7f-6cf0-41aa-8eac-df89817c38e2.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Compare c's actions and behaviors throughout the video. are there any patterns or techniques that c repeats? discuss how this contributes to the overall process and the efficiency of the preparation.\nA. Throughout the entire video, c's actions and behaviors consistently align with the goal of preparing a bowl of cereal. initially, c pours cereal into a bowl, followed by adding milk. subsequently, c stirs the cereal and milk mixture together before proceeding to consume it.\nB. Throughout the video, c's actions and behaviors consistently align with the goal of preparing a sandwich. initially, c spreads peanut butter and jelly on bread slices. subsequently, c cuts the completed sandwich in half before proceeding to eat it.\nC. C's actions and behaviors throughout the video are consistent with the goal of preparing a salad. c first chops vegetables and adds them to a bowl. then, c adds dressing to the salad and eats it.\nD. C's actions and behaviors throughout the video are consistent with the goal of preparing a pancake. c first mixes the flour, water, and eggs in a bowl. then, c heats a frying pan on the stove and pours the batter into the pan. c cooks the pancake until it is golden brown on both sides, then removes it from the pan and places it on a plate. finally, c adds syrup and fruit to the pancake and enjoys it.\nE. C's purposeful actions and behaviors in the video demonstrate the goal of preparing a delightful stir-fry. initially, c skillfully chops fresh vegetables and tender meat. next, c heats some oil in a wok and gently adds the vegetables and meat. c stir-fries the ingredients until they're cooked, then blends in sauce and cooks for additional minutes. finally, c serves the delicious, steaming stir-fry atop perfectly cooked rice.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"C's actions and behaviors throughout the video are consistent with the goal of preparing a pancake. c first mixes the flour, water, and eggs in a bowl. then, c heats a frying pan on the stove and pours the batter into the pan. c cooks the pancake until it is golden brown on both sides, then removes it from the pan and places it on a plate. finally, c adds syrup and fruit to the pancake and enjoys it.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "fe375c7f-6cf0-41aa-8eac-df89817c38e2",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "C's actions and behaviors throughout the video are consistent with the goal of preparing a pancake. c first mixes the flour, water, and eggs in a bowl. then, c heats a frying pan on the stove and pours the batter into the pan. c cooks the pancake until it is golden brown on both sides, then removes it from the pan and places it on a plate. finally, c adds syrup and fruit to the pancake and enjoys it."
+  },
+  {
+    "id": "egoschema_b224b904-1f61-455a-835b-9dd66b4309a3",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/b224b904-1f61-455a-835b-9dd66b4309a3.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Based on the actions of the person and c throughout the video, how would you characterize their interaction and each individual's main purpose?\nA. Concurrently, c and the person are preparing a meal together as a team. expertly, c is in charge of cooking the vegetables and potatoes, while the person diligently handles chopping the vegetables and potatoes.\nB. C and the person are preparing a meal together. c is in charge of chopping the vegetables and potatoes, while the person is in charge of holding the vegetables and potatoes.\nC. In the kitchen, c and the person are joyfully preparing a meal together. diligently, c is in charge of washing the vegetables and potatoes thoroughly, while the person is assigned the task of chopping the vegetables and potatoes carefully.\nD. C and the person collaboratively are preparing a scrumptious meal together. c is diligently in charge of washing the vegetables and potatoes thoroughly, while the person is skillfully in charge of chopping the vegetables and potatoes efficiently.\nE. C and the person are preparing a meal together. c is in charge of peeling the vegetables and potatoes, while the person is in charge of chopping the vegetables and potatoes.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C and the person are preparing a meal together. c is in charge of chopping the vegetables and potatoes, while the person is in charge of holding the vegetables and potatoes.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "b224b904-1f61-455a-835b-9dd66b4309a3",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C and the person are preparing a meal together. c is in charge of chopping the vegetables and potatoes, while the person is in charge of holding the vegetables and potatoes."
+  },
+  {
+    "id": "egoschema_1a22bcef-adcd-4bf7-ab3a-5a1a0a8b1edf",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/1a22bcef-adcd-4bf7-ab3a-5a1a0a8b1edf.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Sythesize the information from the video and provide a brief, high-level description of the overall cooking technique used in this video. be concise and avoid listing individual actions.\nA. In this video, the primary, overall cooking technique employed is boiling. boiling, as a cooking method, involves preparing food in water or another liquid that reaches boiling point. generally, the food is cooked until reaching a tender state. this prevalent cooking method is suitable for vegetables, pasta, and eggs.\nB. The overall cooking technique used in this video is baking. baking is a cooking method that involves cooking food in an oven. the food is typically cooked until it is golden brown and cooked through. baking is a common cooking method for bread, cakes, and pies.\nC. In this instructional video, the primary cooking technique demonstrated is roasting. roasting is a popular cooking method that requires heating food in an oven at high temperatures. generally, the food is cooked until it reaches a browned, fully cooked state. this technique is frequently utilized when preparing meat, poultry, and various vegetables.\nD. In this video, the overall cooking technique demonstrated is grilling. grilling is a particular cooking method that involves preparing food over direct heat. generally, the food is cooked until it becomes browned and properly cooked through. grilling is quite a common cooking method, typically used for meat, poultry, and various vegetables.\nE. The overall cooking technique used in this video is stir-frying. stir-frying is a cooking method that involves cooking food quickly over high heat in a small amount of oil. the food is typically cut into small pieces so that it cooks quickly. stir-frying is a popular cooking method in many asian cuisines.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 4, \"answer_letter\": \"E\", \"answer_text\": \"The overall cooking technique used in this video is stir-frying. stir-frying is a cooking method that involves cooking food quickly over high heat in a small amount of oil. the food is typically cut into small pieces so that it cooks quickly. stir-frying is a popular cooking method in many asian cuisines.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "1a22bcef-adcd-4bf7-ab3a-5a1a0a8b1edf",
+      "split": "val",
+      "answer_index": 4,
+      "answer_letter": "E",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 4,
+    "answer_letter": "E",
+    "answer_text": "The overall cooking technique used in this video is stir-frying. stir-frying is a cooking method that involves cooking food quickly over high heat in a small amount of oil. the food is typically cut into small pieces so that it cooks quickly. stir-frying is a popular cooking method in many asian cuisines."
+  },
+  {
+    "id": "egoschema_bd223d57-1b07-417e-8322-b5f1c8423c03",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/bd223d57-1b07-417e-8322-b5f1c8423c03.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What recurring activity takes place throughout the video, and how does it demonstrate the relationship between c and the dog?\nA. C and the dog play fetch.\nB. C and the dog cuddle.\nC. C and the dog eat together.\nD. C and the dog take a walk.\nE. C and the dog watch tv together.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 0, \"answer_letter\": \"A\", \"answer_text\": \"C and the dog play fetch.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "bd223d57-1b07-417e-8322-b5f1c8423c03",
+      "split": "val",
+      "answer_index": 0,
+      "answer_letter": "A",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 0,
+    "answer_letter": "A",
+    "answer_text": "C and the dog play fetch."
+  },
+  {
+    "id": "egoschema_223164c8-abed-4f1a-8f7c-4088c89d3ece",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/223164c8-abed-4f1a-8f7c-4088c89d3ece.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary technique c applies to join the two pieces of cloth, and how does she ensure they are properly aligned throughout the process?\nA. C uses a pair of scissors to join the two pieces of cloth.\nB. C uses a sewing machine to join the two pieces of cloth.\nC. C uses a needle and thread to join the two pieces of cloth.\nD. C uses a glue gun to join the two pieces of cloth.\nE. C uses a stapler to join the two pieces of cloth.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C uses a sewing machine to join the two pieces of cloth.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "223164c8-abed-4f1a-8f7c-4088c89d3ece",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C uses a sewing machine to join the two pieces of cloth."
+  },
+  {
+    "id": "egoschema_38ebfa83-3667-43af-989e-6354440f9265",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/38ebfa83-3667-43af-989e-6354440f9265.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: In the context of the entire video, what was the main objective of c's interactions with the pen, book, and table?\nA. To organize the pen, book, and table.\nB. To complete a written task.\nC. To take a break from reading.\nD. To get ready to write.\nE. To write a letter.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"To complete a written task.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "38ebfa83-3667-43af-989e-6354440f9265",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "To complete a written task."
+  },
+  {
+    "id": "egoschema_3e700f0b-b4a9-4000-92b7-f0fa3be55161",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/3e700f0b-b4a9-4000-92b7-f0fa3be55161.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: In the context of the video, discuss the most important sequence of interactions between c and the lady, focusing on the purpose of their conversation.\nA. C and the lady are discussing the weather.\nB. Casually, c and the lady engage in discussing the recent news events together.\nC. C and the lady are discussing the ingredients for a meal.\nD. During the conversation, both c and the lady are ardently discussing their plans for the day's activities.\nE. Currently, c and the lady engage in a conversation, discussing their respective families' details.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"C and the lady are discussing the ingredients for a meal.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "3e700f0b-b4a9-4000-92b7-f0fa3be55161",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "C and the lady are discussing the ingredients for a meal."
+  },
+  {
+    "id": "egoschema_46853bef-9052-428d-8e61-df684147f4af",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/46853bef-9052-428d-8e61-df684147f4af.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: How does c's behavior change throughout the video? consider his actions and focus on notable shifts in his engagement or the way he participates in the activity.\nA. The gradual shift in c's behavior changes throughout the video, as he increasingly becomes more frustrated and annoyed with the challenging game.\nB. C's behavior changes throughout the video as he becomes more engaged in the game.\nC. Noticeably, c's behavior progressively changes throughout the video as he gradually becomes more bored with the game over time.\nD. C's behavior changes throughout the video as he becomes more tired of the game.\nE. C's behavior undergoes noticeable changes throughout the video, particularly as his hunger gradually increases, making him more hungry.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C's behavior changes throughout the video as he becomes more engaged in the game.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "46853bef-9052-428d-8e61-df684147f4af",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C's behavior changes throughout the video as he becomes more engaged in the game."
+  },
+  {
+    "id": "egoschema_bd58f24f-340f-448d-977b-bf49a0575b21",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/bd58f24f-340f-448d-977b-bf49a0575b21.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the primary purpose of c's actions throughout the video, and how do these actions support that purpose?\nA. C is getting ready for a job interview.\nB. C is trying on different clothes to find the perfect outfit.\nC. C is planning to attend a date soon.\nD. C is planning to attend and enjoy a festive party soon.\nE. It appears that currently, c is simply just messing around playfully.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C is trying on different clothes to find the perfect outfit.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "bd58f24f-340f-448d-977b-bf49a0575b21",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C is trying on different clothes to find the perfect outfit."
+  },
+  {
+    "id": "egoschema_057f8774-15c2-4e2e-b9fd-75f26d4b3b83",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/057f8774-15c2-4e2e-b9fd-75f26d4b3b83.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: What is the overall objective of the woman's actions throughout the video and how do her actions contribute to that objective?\nA. The woman is making a fire.\nB. The woman is cleaning her house.\nC. The woman is cooking food.\nD. The woman is making dough.\nE. The woman is taking a break.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 3, \"answer_letter\": \"D\", \"answer_text\": \"The woman is making dough.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "057f8774-15c2-4e2e-b9fd-75f26d4b3b83",
+      "split": "val",
+      "answer_index": 3,
+      "answer_letter": "D",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 3,
+    "answer_letter": "D",
+    "answer_text": "The woman is making dough."
+  },
+  {
+    "id": "egoschema_1bf1fdea-6f44-4d3a-b5c0-6852aaada71b",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/1bf1fdea-6f44-4d3a-b5c0-6852aaada71b.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: From the video, identify the key turning points or crucial moments and explain why you think these events are the most important.\nA. The key turning points or crucial moments in the video are when c walks, jogs, and kicks the ball.\nB. The key turning points or crucial moments in the video are when c walks, sits, and stands.\nC. The key turning points or crucial moments in the video are when c tackles the ball.\nD. The key turning points or crucial moments in the video are when c walks, puts his hands on his knees, and lifts his hands.\nE. The key turning points or crucial moments in the video are when c walks, adjusts the camera, and gestures with his hands.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 2, \"answer_letter\": \"C\", \"answer_text\": \"The key turning points or crucial moments in the video are when c tackles the ball.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "1bf1fdea-6f44-4d3a-b5c0-6852aaada71b",
+      "split": "val",
+      "answer_index": 2,
+      "answer_letter": "C",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 2,
+    "answer_letter": "C",
+    "answer_text": "The key turning points or crucial moments in the video are when c tackles the ball."
+  },
+  {
+    "id": "egoschema_a6f20af7-21e8-4ee9-aa66-f23056ecab48",
+    "video": "/data1/shared_data/egocentric_datasets/egoschema/a6f20af7-21e8-4ee9-aa66-f23056ecab48.mp4",
+    "question": "<video>\nAnswer the question based on the egocentric video. Choose one option.\nQuestion: Identify the primary task c was engaged in throughout the video, and how did their actions progress from start to finish?\nA. In the morning, c was diligently cleaning the entire kitchen area.\nB. C was preparing a meal.\nC. C was chopping vegetables.\nD. In the cozy kitchen, c was energetically cooking potatoes with care.\nE. In the kitchen, c was diligently making a fresh, delicious salad.\nReturn only JSON in this format: {\"answer_index\":0,\"answer_letter\":\"A\",\"answer_text\":\"...\"}",
+    "reference_answer": "{\"answer_index\": 1, \"answer_letter\": \"B\", \"answer_text\": \"C was preparing a meal.\"}",
+    "metadata": {
+      "dataset": "EgoSchema",
+      "q_uid": "a6f20af7-21e8-4ee9-aa66-f23056ecab48",
+      "split": "val",
+      "answer_index": 1,
+      "answer_letter": "B",
+      "annotation_source": "egoschema_public_subset_answers",
+      "training_objective": "egocentric_video_choice_qa",
+      "frame_count": 5400
+    },
+    "answer_index": 1,
+    "answer_letter": "B",
+    "answer_text": "C was preparing a meal."
+  }
+]

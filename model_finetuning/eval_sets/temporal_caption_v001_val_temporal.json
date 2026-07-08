@@ -1,0 +1,332 @@
+[
+  {
+    "id": "showee_0006_midair_1_index_bend_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/index_bend/showee_head/20260521_113348657641_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕收回食指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/index_bend/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "index_bend",
+      "task_name": "收回食指",
+      "task_desc": "收回食指，改变弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "收回食指",
+          "description": "整段视频围绕收回食指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_index_pinky_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/index_pinky/showee_head/20260521_112806684691_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕食指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/index_pinky/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "index_pinky",
+      "task_name": "食指和小指",
+      "task_desc": "伸出食指和小指，改变拇指位置，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "食指和小指",
+          "description": "整段视频围绕食指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_middle_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle/showee_head/20260521_112426291823_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "middle",
+      "task_name": "中指",
+      "task_desc": "伸出中指，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "中指",
+          "description": "整段视频围绕中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_middle_bend_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle_bend/showee_head/20260521_113444458719_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕收回中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle_bend/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "middle_bend",
+      "task_name": "收回中指",
+      "task_desc": "收回中指，改变弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "收回中指",
+          "description": "整段视频围绕收回中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_middle_pinky_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle_pinky/showee_head/20260521_112842274806_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕中指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/middle_pinky/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "middle_pinky",
+      "task_name": "中指和小指",
+      "task_desc": "伸出中指和小指，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "中指和小指",
+          "description": "整段视频围绕中指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_pinky_bend_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/pinky_bend/showee_head/20260521_113536919726_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕收回小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/pinky_bend/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "pinky_bend",
+      "task_name": "收回小指",
+      "task_desc": "收回小指，改变弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "收回小指",
+          "description": "整段视频围绕收回小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_ring_bend_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/ring_bend/showee_head/20260521_113511313290_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕收回无名指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/ring_bend/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "ring_bend",
+      "task_name": "收回无名指",
+      "task_desc": "收回无名指，改变弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "收回无名指",
+          "description": "整段视频围绕收回无名指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_ring_pinky_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/ring_pinky/showee_head/20260521_112912109084_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕无名指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/ring_pinky/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "ring_pinky",
+      "task_name": "无名指和小指",
+      "task_desc": "伸出无名指和小指，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "无名指和小指",
+          "description": "整段视频围绕无名指和小指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_thumb_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/thumb/showee_head/20260521_112303533712_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕大拇指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/thumb/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "thumb",
+      "task_name": "大拇指",
+      "task_desc": "转动大拇指，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "大拇指",
+          "description": "整段视频围绕大拇指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "showee_0006_midair_1_thumb_middle_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/thumb_middle/showee_head/20260521_11270076378_000.mkv",
+    "question": "动作从头到尾有什么变化？请明确时间段。",
+    "reference_answer": "0.00-20.00s：整段视频围绕大拇指和中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。 以上时间段为初始标注，精确动作边界需要结合视频逐帧复核。",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/thumb_middle/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "thumb_middle",
+      "task_name": "大拇指和中指",
+      "task_desc": "伸出大拇指和中指，改变手指弯曲程度，转动手腕",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "temporal_seeded_from_metadata",
+      "review_status": "temporal_unreviewed",
+      "temporal_segments": [
+        {
+          "segment_id": "seg_000",
+          "start_sec": 0.0,
+          "end_sec": 20.0,
+          "label": "大拇指和中指",
+          "description": "整段视频围绕大拇指和中指任务展开，主要观察点是手腕转动或朝向变化、手指弯曲程度变化、手指伸展或张开。",
+          "boundary_source": "metadata_duration",
+          "confidence": "coarse",
+          "notes": "粗粒度任务级时间段；尚未逐帧人工标注动作边界。"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "showee_0006_midair_1_asl_1_head_eval_001",
+    "source_sample_id": "showee_0006_midair_1_asl_1_head_smoke",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_1/showee_head/20260521_112343299446_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": 1,
+      "task_id": "asl_1",
+      "task_name": "ASL 1",
+      "duration": 20
+    },
+    "question": "请描述这个视频中正在执行的手势任务，并说明你看到的关键动作。",
+    "reference_answer": "视频展示的是 ASL 1 手势任务。根据元数据说明，动作内容是 ASL 手语字母 1 的手势，包括改变手指弯曲程度和转动手腕。该样本来自 showee_head 头戴视角。",
+    "eval_focus": [
+      "是否识别为 ASL 1 手势任务",
+      "是否提到手指弯曲或手腕转动等关键动作",
+      "是否避免编造与视频或元数据无关的场景细节",
+      "是否说明该样本来自头戴视角或第一视角"
+    ],
+    "baseline_output": "/data1/shared_data/qwen3vl-showeeData/runs/puzuo/video_smoke_infer/output.json"
+  }
+]

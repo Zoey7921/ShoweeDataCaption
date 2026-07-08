@@ -1,0 +1,147 @@
+[
+  {
+    "id": "showee_0006_midair_1_asl_l_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/showee_head/20260521_1126159586_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_l",
+      "task_name": "ASL L",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "open_description",
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL L 手势任务。根据元数据，任务要求为做出 ASL L 手势、伸出和捏合手指并转动手腕。抽帧可见前后段有拇指与食指形成 L 形的姿态，中段出现捏合或收拢变化。",
+    "eval_focus": [
+      "开放式回答是否提到正确 task_name 或等价任务名",
+      "是否描述关键手指/手腕动作",
+      "是否避免把 ASL 手势泛化成文化手势或设备交互",
+      "看不清时是否表达不确定而不是编造"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_asl_y_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/showee_head/20260521_112732714495_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_y",
+      "task_name": "ASL Y",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "open_description",
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL Y 手势任务。根据元数据，任务要求为做出 ASL Y 手势并转动手腕。抽帧可见双手多次呈拇指和小指展开、其余手指收拢的 Y 形相关手型。",
+    "eval_focus": [
+      "开放式回答是否提到正确 task_name 或等价任务名",
+      "是否描述关键手指/手腕动作",
+      "是否避免把 ASL 手势泛化成文化手势或设备交互",
+      "看不清时是否表达不确定而不是编造"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_finger_wave_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/showee_head/20260521_114012548649_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "finger_wave",
+      "task_name": "手指波浪",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "open_description",
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 手指波浪 手势任务。根据元数据，任务要求为按照顺序弯曲和伸展全部手指。抽帧可见双手在张开、部分手指弯曲和收拢之间反复变化。",
+    "eval_focus": [
+      "开放式回答是否提到正确 task_name 或等价任务名",
+      "是否描述关键手指/手腕动作",
+      "是否避免把 ASL 手势泛化成文化手势或设备交互",
+      "看不清时是否表达不确定而不是编造"
+    ]
+  },
+  {
+    "id": "showee_0007_midair_1_hand_shape_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/hand_shape/showee_head/20260521_143819669642_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/hand_shape/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "hand_shape",
+      "task_name": "注册手形",
+      "task_desc": "手掌自然展开，缓慢转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v002_initial_from_metadata",
+      "review_status": "edited",
+      "review_notes": "Initial visual review from v002 contact sheets and task metadata on 2026-07-03; frame-level timing and fine finger-contact details remain low confidence."
+    },
+    "eval_type": "open_description",
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 注册手形 手势任务。抽帧可见双手自然展开，手掌朝向和手腕角度缓慢变化。",
+    "eval_focus": [
+      "开放式回答是否提到正确 task_name 或等价任务名",
+      "是否描述关键手指/手腕动作",
+      "是否避免把 ASL 手势泛化成文化手势或设备交互",
+      "看不清时是否表达不确定而不是编造"
+    ]
+  },
+  {
+    "id": "showee_0007_midair_1_seq_flex_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_flex/showee_head/20260521_152001633950_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_flex/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "seq_flex",
+      "task_name": "序列收回",
+      "task_desc": "从张开姿态开始，依次收回并伸出手指，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v002_initial_from_metadata",
+      "review_status": "edited",
+      "review_notes": "Initial visual review from v002 contact sheets and task metadata on 2026-07-03; frame-level timing and fine finger-contact details remain low confidence."
+    },
+    "eval_type": "open_description",
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 序列收回 手势任务。抽帧可见双手从张开状态到部分手指收回再伸出的变化。",
+    "eval_focus": [
+      "开放式回答是否提到正确 task_name 或等价任务名",
+      "是否描述关键手指/手腕动作",
+      "是否避免把 ASL 手势泛化成文化手势或设备交互",
+      "看不清时是否表达不确定而不是编造"
+    ]
+  }
+]

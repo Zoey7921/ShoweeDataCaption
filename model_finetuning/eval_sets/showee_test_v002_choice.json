@@ -1,0 +1,297 @@
+[
+  {
+    "id": "showee_0006_midair_1_asl_l_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/showee_head/20260521_1126159586_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_l",
+      "task_name": "ASL L",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "candidate_task_choice",
+    "question": "请只从下面候选任务名中选择最符合视频的一个，并用 JSON 输出：{\"task_id\":\"...\",\"task_name\":\"...\",\"reason\":\"...\"}。\n候选任务：\n1. ASL G (asl_g)\n2. ASL I (asl_i)\n3. ASL K (asl_k)\n4. ASL Y (asl_y)\n5. ASL 0 (asl_0)\n6. ASL L (asl_l)",
+    "candidate_tasks": [
+      {
+        "task_id": "asl_g",
+        "task_name": "ASL G"
+      },
+      {
+        "task_id": "asl_i",
+        "task_name": "ASL I"
+      },
+      {
+        "task_id": "asl_k",
+        "task_name": "ASL K"
+      },
+      {
+        "task_id": "asl_y",
+        "task_name": "ASL Y"
+      },
+      {
+        "task_id": "asl_0",
+        "task_name": "ASL 0"
+      },
+      {
+        "task_id": "asl_l",
+        "task_name": "ASL L"
+      }
+    ],
+    "answer_task_id": "asl_l",
+    "answer_task_name": "ASL L",
+    "reference_answer": {
+      "task_id": "asl_l",
+      "task_name": "ASL L"
+    },
+    "eval_focus": [
+      "候选任务 task_id 是否选择正确",
+      "reason 是否引用可见手型或动作依据",
+      "是否严格从候选列表选择"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_asl_y_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/showee_head/20260521_112732714495_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_y",
+      "task_name": "ASL Y",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "candidate_task_choice",
+    "question": "请只从下面候选任务名中选择最符合视频的一个，并用 JSON 输出：{\"task_id\":\"...\",\"task_name\":\"...\",\"reason\":\"...\"}。\n候选任务：\n1. ASL I (asl_i)\n2. ASL K (asl_k)\n3. ASL L (asl_l)\n4. ASL 0 (asl_0)\n5. ASL Y (asl_y)\n6. ASL G (asl_g)",
+    "candidate_tasks": [
+      {
+        "task_id": "asl_i",
+        "task_name": "ASL I"
+      },
+      {
+        "task_id": "asl_k",
+        "task_name": "ASL K"
+      },
+      {
+        "task_id": "asl_l",
+        "task_name": "ASL L"
+      },
+      {
+        "task_id": "asl_0",
+        "task_name": "ASL 0"
+      },
+      {
+        "task_id": "asl_y",
+        "task_name": "ASL Y"
+      },
+      {
+        "task_id": "asl_g",
+        "task_name": "ASL G"
+      }
+    ],
+    "answer_task_id": "asl_y",
+    "answer_task_name": "ASL Y",
+    "reference_answer": {
+      "task_id": "asl_y",
+      "task_name": "ASL Y"
+    },
+    "eval_focus": [
+      "候选任务 task_id 是否选择正确",
+      "reason 是否引用可见手型或动作依据",
+      "是否严格从候选列表选择"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_finger_wave_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/showee_head/20260521_114012548649_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "finger_wave",
+      "task_name": "手指波浪",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples.",
+      "v002_origin": "v001_reviewed"
+    },
+    "eval_type": "candidate_task_choice",
+    "question": "请只从下面候选任务名中选择最符合视频的一个，并用 JSON 输出：{\"task_id\":\"...\",\"task_name\":\"...\",\"reason\":\"...\"}。\n候选任务：\n1. 序列收回 (seq_flex)\n2. 序列伸展 (seq_extend)\n3. 序列捏合 (seq_pinch)\n4. ASL 0 (asl_0)\n5. ASL 1 (asl_1)\n6. 手指波浪 (finger_wave)",
+    "candidate_tasks": [
+      {
+        "task_id": "seq_flex",
+        "task_name": "序列收回"
+      },
+      {
+        "task_id": "seq_extend",
+        "task_name": "序列伸展"
+      },
+      {
+        "task_id": "seq_pinch",
+        "task_name": "序列捏合"
+      },
+      {
+        "task_id": "asl_0",
+        "task_name": "ASL 0"
+      },
+      {
+        "task_id": "asl_1",
+        "task_name": "ASL 1"
+      },
+      {
+        "task_id": "finger_wave",
+        "task_name": "手指波浪"
+      }
+    ],
+    "answer_task_id": "finger_wave",
+    "answer_task_name": "手指波浪",
+    "reference_answer": {
+      "task_id": "finger_wave",
+      "task_name": "手指波浪"
+    },
+    "eval_focus": [
+      "候选任务 task_id 是否选择正确",
+      "reason 是否引用可见手型或动作依据",
+      "是否严格从候选列表选择"
+    ]
+  },
+  {
+    "id": "showee_0007_midair_1_hand_shape_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/hand_shape/showee_head/20260521_143819669642_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/hand_shape/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "hand_shape",
+      "task_name": "注册手形",
+      "task_desc": "手掌自然展开，缓慢转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v002_initial_from_metadata",
+      "review_status": "edited",
+      "review_notes": "Initial visual review from v002 contact sheets and task metadata on 2026-07-03; frame-level timing and fine finger-contact details remain low confidence."
+    },
+    "eval_type": "candidate_task_choice",
+    "question": "请只从下面候选任务名中选择最符合视频的一个，并用 JSON 输出：{\"task_id\":\"...\",\"task_name\":\"...\",\"reason\":\"...\"}。\n候选任务：\n1. 无名指和小指 (ring_pinky)\n2. 大拇指和中指 (thumb_middle)\n3. 我爱你 (ily)\n4. 注册手形 (hand_shape)\n5. 食指和小指 (index_pinky)\n6. 中指和小指 (middle_pinky)",
+    "candidate_tasks": [
+      {
+        "task_id": "ring_pinky",
+        "task_name": "无名指和小指"
+      },
+      {
+        "task_id": "thumb_middle",
+        "task_name": "大拇指和中指"
+      },
+      {
+        "task_id": "ily",
+        "task_name": "我爱你"
+      },
+      {
+        "task_id": "hand_shape",
+        "task_name": "注册手形"
+      },
+      {
+        "task_id": "index_pinky",
+        "task_name": "食指和小指"
+      },
+      {
+        "task_id": "middle_pinky",
+        "task_name": "中指和小指"
+      }
+    ],
+    "answer_task_id": "hand_shape",
+    "answer_task_name": "注册手形",
+    "reference_answer": {
+      "task_id": "hand_shape",
+      "task_name": "注册手形"
+    },
+    "eval_focus": [
+      "候选任务 task_id 是否选择正确",
+      "reason 是否引用可见手型或动作依据",
+      "是否严格从候选列表选择"
+    ]
+  },
+  {
+    "id": "showee_0007_midair_1_seq_flex_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_flex/showee_head/20260521_152001633950_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0007_midair_1/seq_flex/metadata.json",
+      "subject_id": "0007",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "seq_flex",
+      "task_name": "序列收回",
+      "task_desc": "从张开姿态开始，依次收回并伸出手指，转动手腕",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v002_initial_from_metadata",
+      "review_status": "edited",
+      "review_notes": "Initial visual review from v002 contact sheets and task metadata on 2026-07-03; frame-level timing and fine finger-contact details remain low confidence."
+    },
+    "eval_type": "candidate_task_choice",
+    "question": "请只从下面候选任务名中选择最符合视频的一个，并用 JSON 输出：{\"task_id\":\"...\",\"task_name\":\"...\",\"reason\":\"...\"}。\n候选任务：\n1. 序列捏合 (seq_pinch)\n2. ASL 0 (asl_0)\n3. ASL 1 (asl_1)\n4. 序列收回 (seq_flex)\n5. 手指波浪 (finger_wave)\n6. 序列伸展 (seq_extend)",
+    "candidate_tasks": [
+      {
+        "task_id": "seq_pinch",
+        "task_name": "序列捏合"
+      },
+      {
+        "task_id": "asl_0",
+        "task_name": "ASL 0"
+      },
+      {
+        "task_id": "asl_1",
+        "task_name": "ASL 1"
+      },
+      {
+        "task_id": "seq_flex",
+        "task_name": "序列收回"
+      },
+      {
+        "task_id": "finger_wave",
+        "task_name": "手指波浪"
+      },
+      {
+        "task_id": "seq_extend",
+        "task_name": "序列伸展"
+      }
+    ],
+    "answer_task_id": "seq_flex",
+    "answer_task_name": "序列收回",
+    "reference_answer": {
+      "task_id": "seq_flex",
+      "task_name": "序列收回"
+    },
+    "eval_focus": [
+      "候选任务 task_id 是否选择正确",
+      "reason 是否引用可见手型或动作依据",
+      "是否严格从候选列表选择"
+    ]
+  }
+]

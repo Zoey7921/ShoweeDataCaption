@@ -1,0 +1,83 @@
+[
+  {
+    "id": "showee_0006_midair_1_asl_g_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_g/showee_head/20260521_113754536118_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_g/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_g",
+      "task_name": "ASL G",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL G 手势任务。关键动作是形成 ASL G 手型，食指伸出、其余手指弯曲或收拢，并伴随手腕转动。头戴视角可确认主要手型和转腕，但不做更细的指尖位置判断。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_asl_i_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_i/showee_head/20260521_112459315262_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_i/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_i",
+      "task_name": "ASL I",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL I 手势任务。关键动作是形成 ASL I 手型，多数手指收拢，部分手指突出，同时伴随手腕转动和轻微弯曲变化。细粒度单指状态在头戴视角下不宜过度判断。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_asl_k_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_k/showee_head/20260521_113829722249_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_k/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_k",
+      "task_name": "ASL K",
+      "duration": 20,
+      "split": "val",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL K 手势任务。关键动作是形成 ASL K 手型，食指和中指伸出分开、其余手指弯曲或收拢，并伴随手腕转动；中段有翻腕和短暂视角变化。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  }
+]

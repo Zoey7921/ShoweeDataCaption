@@ -1,23 +1,32 @@
 # Python
 __pycache__/
+**/__pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.venv-*/
+.uv-cache/
 venv/
 
 # Local data and generated artifacts
 data/
+**/data/
 eval/results/
+**/eval/results/
 eval/human_review/
 runs/
+**/runs/
 logs/
+**/logs/
 tmp/
+**/tmp/
 ShoweeDataCaption/
 
 # Model weights and checkpoints
 models/
+**/models/
 *.safetensors
 *.bin
 *.pt

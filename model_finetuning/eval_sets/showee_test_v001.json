@@ -1,0 +1,83 @@
+[
+  {
+    "id": "showee_0006_midair_1_asl_l_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/showee_head/20260521_1126159586_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_l/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_l",
+      "task_name": "ASL L",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL L 手势任务。关键动作是拇指和食指伸出形成 L 形，并伴随伸出、捏合或收拢变化以及手腕转动；中段手型会收拢，不能简单描述为全程食指向上。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_asl_y_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/showee_head/20260521_112732714495_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/asl_y/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "asl_y",
+      "task_name": "ASL Y",
+      "duration": 20,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 ASL Y 手势任务。关键动作是拇指和小指展开、其余手指弯曲或收拢，形成 Y 形相关手势，并伴随手腕转动；不应描述为拇指与食指形成 Y。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  },
+  {
+    "id": "showee_0006_midair_1_finger_wave_head",
+    "video": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/showee_head/20260521_114012548649_000.mkv",
+    "metadata": {
+      "dataset": "ShoweeHandv2",
+      "source_view": "showee_head",
+      "metadata_path": "/data1/shared_data/qwen3vl-showeeData/data/raw/ShoweeHandv2/raw/20260521_0006_midair_1/finger_wave/metadata.json",
+      "subject_id": "0006",
+      "session_type": "midair",
+      "session_repeat": "1",
+      "task_id": "finger_wave",
+      "task_name": "手指波浪",
+      "duration": 30,
+      "split": "test",
+      "annotation_source": "human_review_v001_initial_from_ai",
+      "review_status": "edited",
+      "review_notes": "Initial human review from sampled frames and task metadata on 2026-07-03; fine finger-contact details remain low confidence for head-view ASL samples."
+    },
+    "question": "请描述视频中正在执行的手势任务，并说明关键手部动作。",
+    "reference_answer": "视频展示的是 手指波浪 任务。关键动作是双手手指按顺序或近似顺序弯曲和伸展，在张开、局部弯曲、收拢和再次伸展之间循环；抽帧可确认连续屈伸，但不精确标注每根手指的先后时刻。",
+    "eval_focus": [
+      "是否匹配 metadata 中的 task_name/task_desc",
+      "是否提到手指、手腕或手部姿态等关键动作",
+      "是否避免编造无法从视频确认的细节",
+      "是否说明不确定或看不清的部分"
+    ]
+  }
+]
