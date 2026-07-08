@@ -34,6 +34,7 @@ annotation_pipeline/
     apply_temporal_review.py
     build_streaming_interaction_dataset.py
     apply_streaming_review.py
+    expand_static_streaming_turns.py
     export_wearable_egoconv.py
     summarize_showee_eval.py
   docs/
@@ -127,6 +128,13 @@ Apply manual streaming review updates and refresh EgoConv export:
 ```bash
 python scripts/apply_streaming_review.py --dry-run
 python scripts/apply_streaming_review.py
+```
+
+Expand single-turn static hand-shape samples into short multi-turn interactions:
+
+```bash
+python scripts/expand_static_streaming_turns.py --dry-run
+python scripts/expand_static_streaming_turns.py
 ```
 
 Export streaming interaction samples to Wearable AI EgoConv JSONL:

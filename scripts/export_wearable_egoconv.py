@@ -93,14 +93,18 @@ def segment_by_id(sample: dict[str, Any]) -> dict[str, dict[str, Any]]:
 def interval_for_turn(
     turn: dict[str, Any], segments: dict[str, dict[str, Any]]
 ) -> list[float]:
-    seg = segments.get(str(turn.get("segment_id", "")), {})
-    if seg:
-        start = as_float(seg.get("start_sec"))
-        end = as_float(seg.get("end_sec"))
+    if "interval_start_sec" in turn and "interval_end_sec" in turn:
+        start = as_float(turn.get("interval_start_sec"))
+        end = as_float(turn.get("interval_end_sec"))
     else:
-        time_sec = as_float(turn.get("time_sec"))
-        start = max(0.0, time_sec - 1.0)
-        end = time_sec + 1.0
+        seg = segments.get(str(turn.get("segment_id", "")), {})
+        if seg:
+            start = as_float(seg.get("start_sec"))
+            end = as_float(seg.get("end_sec"))
+        else:
+            time_sec = as_float(turn.get("time_sec"))
+            start = max(0.0, time_sec - 1.0)
+            end = time_sec + 1.0
     if end < start:
         start, end = end, start
     return [round(start, 3), round(end, 3)]
